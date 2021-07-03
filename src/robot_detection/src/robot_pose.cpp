@@ -28,63 +28,77 @@ std::vector<float>  quaternion_to_theta(std::vector<float> &RPY, float x, float 
   return RPY;
 }
 void markersCallback(const aruco_pose::MarkerArray::ConstPtr &markers){
-    robots_array.robots.resize(2);   
-    // ROS_INFO("sub");
-    if (!markers->markers.empty()){
-        ROS_INFO("number of markers : [%lu]", markers -> markers.size());
-        // ROS_INFO("I heard marker: [%d], [%f]", markers->markers[0].id, markers->markers[0].pose.position.x);
-    }
-    for( int i = 0; i < markers -> markers.size(); i++){
-        robot.id=markers->markers[i].id;
-        robot.pose = markers->markers[i].pose;
-        robots_array.robots.push_back(robot);
-        // robot.id.clear();
-        // ROS_INFO("id [%d], x : [%f]", robot.id , robot.pose.position.x);
-        double yaww;
-        rpy = quaternion_to_theta(rpy, robot.pose.orientation.x, robot.pose.orientation.y, robot.pose.orientation.z, robot.pose.orientation.w);
-        ROS_INFO(" [%d] : roll [%f]  pitch [%f] yaw [%f] ",  robot.id, rpy[0], rpy[1], rpy[2]);
-        switch(markers->markers[i].id ){
-          case 0: {
-            ROS_INFO(" [%d] :  yaw [%f] ",  robot.id,  rpy[2]);
-            break;
-          }
-          case 1: {
-            float tmp; 
-            tmp = rpy[1] + M_PI;
-            if ( tmp > M_PI){
-              tmp = tmp - 2* M_PI;
-            }
-            ROS_INFO(" [%d] :  p + 180 [%f] ",  robot.id,  tmp);
-            break;
-          }
-          case 2: {
-            float tmp; 
-            tmp = rpy[1] - M_PI / 2; //+180 + 90 = -90 
-            if ( tmp > M_PI){
-              tmp = tmp - 2* M_PI;
-            }
-            ROS_INFO(" [%d] :  p - 90 [%f] ",  robot.id,  tmp);
-            break;
-          }
-          case 3: {
-            ROS_INFO(" [%d] :  pitch [%f] ",  robot.id,  rpy[1]);
-            break;
-          }
-          case 4: {
-            float tmp; 
-            tmp = rpy[1] + M_PI / 2;
-            if ( tmp > M_PI){
-              tmp = tmp - 2* M_PI;
-            }
-            ROS_INFO(" [%d] :  pitch + 90  [%f] ",  robot.id,  tmp);
-            break;
-          }
+  // robots_array.robots.resize(4);   
+  std::vector<int> robot_status{0, 0, 0, 0, 0, 0}; // record which robot has been seen
+  if (!markers->markers.empty()){
+      ROS_INFO("number of markers : [%lu]", markers -> markers.size());
+      // ROS_INFO("I heard marker: [%d], [%f]", markers->markers[0].id, markers->markers[0].pose.position.x);
+  }
+  for( int i = 0; i < markers -> markers.size(); i++){
+    // determine orientation of the robot
+    double yaww;
+    rpy = quaternion_to_theta(rpy, robot.pose.orientation.x, robot.pose.orientation.y, robot.pose.orientation.z, robot.pose.orientation.w);
+    ROS_INFO(" [%d] : roll [%f]  pitch [%f] yaw [%f] ",  robot.id, rpy[0], rpy[1], rpy[2]);
+    _Float32 tmp;   
+    switch(markers->markers[i].id % 5){
+      case 0: {
+        tmp = rpy[2];
+        ROS_INFO(" [%d] :  yaw [%f] ",  markers->markers[i].id,  rpy[2]);
+        break;
+      }
+      case 1: {
+        tmp = rpy[1] + M_PI;
+        if ( tmp > M_PI){
+          tmp = tmp - 2* M_PI;
         }
-
+        ROS_INFO(" [%d] :  p + 180 [%f] ",  markers->markers[i].id,  tmp);
+        break;
+      }
+      case 2: {
+        tmp = rpy[1] - M_PI / 2; //+180 + 90 = -90 
+        if ( tmp > M_PI){
+          tmp = tmp - 2* M_PI;
+        }
+        ROS_INFO(" [%d] :  p - 90 [%f] ",  markers->markers[i].id,  tmp);
+        break;
+      }
+      case 3: {
+        tmp = rpy[1];
+        ROS_INFO(" [%d] :  pitch [%f] ",  markers->markers[i].id,  rpy[1]);
+        break;
+      }
+      case 4: {
+        tmp = rpy[1] + M_PI / 2;
+        if ( tmp > M_PI){
+          tmp = tmp - 2* M_PI;
+        }
+        ROS_INFO(" [%d] :  pitch + 90  [%f] ", markers->markers[i].id,  tmp);
+        break;
+      }
     }
-    // ROS_INFO("-------------");
-    Pose_robot.publish(robots_array);
-    robots_array.robots.clear();
+    robot.id = markers->markers[i].id / 5;       // determine which robot
+    ROS_INFO("robot  [%d]",  robot.id);
+    int robot_index; // the index of previous robot info in robot array
+    if ( robot_status[robot.id] == 1){ // it means that i have seen more than marker of this robot
+      for ( robot_index = 0; robot_index < 4; robot_index ++){
+        if ( robot.id == robots_array.robots[robot_index].id){
+          ROS_INFO("seen this robot!");
+          // robot.pose = robots_array.robots[robot_index].pose;
+          robots_array.robots[robot_index].orientation = (robots_array.robots[robot_index].orientation + tmp)/2;
+          break;
+        }
+      }
+    }
+    else{ // first time seeing this robot
+      robot.pose = markers->markers[i].pose;
+      robot.orientation = tmp;
+      robot_status[robot.id] = 1;
+      robots_array.robots.push_back(robot);
+    }
+    ROS_INFO("-------------");
+  }
+  Pose_robot.publish(robots_array);
+  robots_array.robots.clear();
 }
 
 int main(int argc, char* argv[])
@@ -95,10 +109,8 @@ int main(int argc, char* argv[])
   // Create a ROS node handle
   ros::NodeHandle n;
 
-  // aruco = n.subscribe("aruco_detect/markers", 1000,  aruco_markers);
   aruco_array= n.subscribe("aruco_detect/markers", 1000, markersCallback);
   Pose_robot = n.advertise<robot_detection::RobotArray>("pose_robot", 1);
-  ROS_INFO("Hello, World!");
 
   ros::Rate loop_rate(100);
   while (ros::ok()){
