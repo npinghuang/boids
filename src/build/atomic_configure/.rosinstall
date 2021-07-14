@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/enping/boids/src/build/devel/setup.sh

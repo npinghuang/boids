@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o  -o ../devel/lib/openslam_gmapping/configfile_test -Wl,-rpath,/home/enping/boids/src/build/devel/lib: ../devel/lib/libconfigfile.so 

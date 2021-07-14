@@ -1,0 +1,8 @@
+prefix=/home/enping/boids/src/build/devel
+
+Name: robot_detection
+Description: Description of robot_detection
+Version: 0.0.0
+Cflags: -I/home/enping/boids/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

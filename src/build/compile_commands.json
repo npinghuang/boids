@@ -1,0 +1,1117 @@
+[
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/gfs2neff.dir/gridfastslam/gfs2neff.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/gfs2neff.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/gfs2neff.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/gfs2rec.dir/gridfastslam/gfs2rec.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/gfs2rec.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/gfs2rec.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/gfs2log.dir/gridfastslam/gfs2log.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/gfs2log.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/gfs2log.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dsensor_range_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o -c /home/enping/boids/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/sensor/sensor_range/rangesensor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dsensor_range_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o -c /home/enping/boids/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/sensor/sensor_range/rangereading.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/scanmatch_test.dir/scanmatcher/scanmatch_test.cpp.o -c /home/enping/boids/src/openslam_gmapping/scanmatcher/scanmatch_test.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/scanmatcher/scanmatch_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dlog_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/log.dir/log/configuration.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/configuration.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/configuration.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dlog_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/log.dir/log/carmenconfiguration.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/carmenconfiguration.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/carmenconfiguration.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dlog_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/log.dir/log/sensorlog.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/sensorlog.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/sensorlog.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dlog_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/log.dir/log/sensorstream.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/sensorstream.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/sensorstream.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dsensor_base_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/sensor_base.dir/sensor/sensor_base/sensor.cpp.o -c /home/enping/boids/src/openslam_gmapping/sensor/sensor_base/sensor.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/sensor/sensor_base/sensor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dsensor_base_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/sensor_base.dir/sensor/sensor_base/sensorreading.cpp.o -c /home/enping/boids/src/openslam_gmapping/sensor/sensor_base/sensorreading.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/sensor/sensor_base/sensorreading.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/log_plot.dir/log/log_plot.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/log_plot.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/log_plot.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dutils_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/utils.dir/utils/stat.cpp.o -c /home/enping/boids/src/openslam_gmapping/utils/stat.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/utils/stat.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dutils_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/utils.dir/utils/movement.cpp.o -c /home/enping/boids/src/openslam_gmapping/utils/movement.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/utils/movement.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o -c /home/enping/boids/src/openslam_gmapping/configfile/configfile_test.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/configfile/configfile_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o -c /home/enping/boids/src/openslam_gmapping/scanmatcher/icptest.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/scanmatcher/icptest.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/autoptr_test.dir/utils/autoptr_test.cpp.o -c /home/enping/boids/src/openslam_gmapping/utils/autoptr_test.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/utils/autoptr_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/scanstudio2carmen.dir/log/scanstudio2carmen.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/scanstudio2carmen.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/scanstudio2carmen.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/log_test.dir/log/log_test.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/log_test.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/log_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dscanmatcher_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/scanmatcher.dir/scanmatcher/smmap.cpp.o -c /home/enping/boids/src/openslam_gmapping/scanmatcher/smmap.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/scanmatcher/smmap.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dscanmatcher_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o -c /home/enping/boids/src/openslam_gmapping/scanmatcher/scanmatcher.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/scanmatcher/scanmatcher.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dscanmatcher_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o -c /home/enping/boids/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/scanmatcher/scanmatcherprocessor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dscanmatcher_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o -c /home/enping/boids/src/openslam_gmapping/scanmatcher/eig3.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/scanmatcher/eig3.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -I/home/enping/boids/src/openslam_gmapping/include  -g   -o CMakeFiles/rdk2carmen.dir/log/rdk2carmen.cpp.o -c /home/enping/boids/src/openslam_gmapping/log/rdk2carmen.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/log/rdk2carmen.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dgridfastslam_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor_tree.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/gridslamprocessor_tree.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/gridslamprocessor_tree.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dgridfastslam_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/gridfastslam.dir/gridfastslam/motionmodel.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/motionmodel.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/motionmodel.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dgridfastslam_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/gridslamprocessor.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/gridslamprocessor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dgridfastslam_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/gridfastslam.dir/gridfastslam/gfsreader.cpp.o -c /home/enping/boids/src/openslam_gmapping/gridfastslam/gfsreader.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/gridfastslam/gfsreader.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dsensor_odometry_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/sensor_odometry.dir/sensor/sensor_odometry/odometrysensor.cpp.o -c /home/enping/boids/src/openslam_gmapping/sensor/sensor_odometry/odometrysensor.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/sensor/sensor_odometry/odometrysensor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dsensor_odometry_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/sensor_odometry.dir/sensor/sensor_odometry/odometryreading.cpp.o -c /home/enping/boids/src/openslam_gmapping/sensor/sensor_odometry/odometryreading.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/sensor/sensor_odometry/odometryreading.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/openslam_gmapping",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Dconfigfile_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include  -g -fPIC   -o CMakeFiles/configfile.dir/configfile/configfile.cpp.o -c /home/enping/boids/src/openslam_gmapping/configfile/configfile.cpp",
+  "file": "/home/enping/boids/src/openslam_gmapping/configfile/configfile.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/robot_detection",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_detection\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/robot_pose.dir/src/robot_pose.cpp.o -c /home/enping/boids/src/robot_detection/src/robot_pose.cpp",
+  "file": "/home/enping/boids/src/robot_detection/src/robot_pose.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/robot_detection",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_detection\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/robot_velocity.dir/src/robot_velocity.cpp.o -c /home/enping/boids/src/robot_detection/src/robot_velocity.cpp",
+  "file": "/home/enping/boids/src/robot_detection/src/robot_velocity.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL  -g   -o CMakeFiles/map_server-map_saver.dir/src/map_saver.cpp.o -c /home/enping/boids/src/navigation/map_server/src/map_saver.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/src/map_saver.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -Dmap_server_image_loader_EXPORTS -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL  -g -fPIC   -o CMakeFiles/map_server_image_loader.dir/src/image_loader.cpp.o -c /home/enping/boids/src/navigation/map_server/src/image_loader.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/src/image_loader.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/rtest.dir/test/rtest.cpp.o -c /home/enping/boids/src/navigation/map_server/test/rtest.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/test/rtest.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/rtest.dir/test/test_constants.cpp.o -c /home/enping/boids/src/navigation/map_server/test/test_constants.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/test/test_constants.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL  -g   -o CMakeFiles/map_server.dir/src/main.cpp.o -c /home/enping/boids/src/navigation/map_server/src/main.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/src/main.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/map_server_utest.dir/test/utest.cpp.o -c /home/enping/boids/src/navigation/map_server/test/utest.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/test/utest.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/map_server",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"map_server\\\" -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/map_server_utest.dir/test/test_constants.cpp.o -c /home/enping/boids/src/navigation/map_server/test/test_constants.cpp",
+  "file": "/home/enping/boids/src/navigation/map_server/test/test_constants.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/cvdrawingutils.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/cameraparameters.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/debug.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/debug.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/debug.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/dictionary.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/dictionary.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/ippe.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/ippe.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/marker.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/marker.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/marker.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/markerdetector.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/markerdetector.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/markerlabeler.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/markerlabeler.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/markermap.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/markermap.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/posetracker.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/posetracker.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/markerlabelers/dictionary_based.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/markerlabelers/dictionary_based.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/markerlabelers/dictionary_based.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Daruco_EXPORTS -I/home/enping/boids/src/aruco_ros/aruco/include/aruco -isystem /usr/include/opencv -isystem /usr/include/eigen3  -g -fPIC   -std=gnu++11 -o CMakeFiles/aruco.dir/src/aruco/markerlabelers/svmmarkers.cpp.o -c /home/enping/boids/src/aruco_ros/aruco/src/aruco/markerlabelers/svmmarkers.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco/src/aruco/markerlabelers/svmmarkers.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cupDetection",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cupDetection\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g   -o CMakeFiles/cv_test.dir/src/cv_test.cpp.o -c /home/enping/boids/src/cupDetection/src/cv_test.cpp",
+  "file": "/home/enping/boids/src/cupDetection/src/cv_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cupDetection",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cupDetection\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g   -o CMakeFiles/cupDetectWithFunction.dir/src/cupDetectWithFunction.cpp.o -c /home/enping/boids/src/cupDetection/src/cupDetectWithFunction.cpp",
+  "file": "/home/enping/boids/src/cupDetection/src/cupDetectWithFunction.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cupDetection",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cupDetection\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g   -o CMakeFiles/cupDetect.dir/src/cupDetect.cpp.o -c /home/enping/boids/src/cupDetection/src/cupDetect.cpp",
+  "file": "/home/enping/boids/src/cupDetection/src/cupDetect.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cv_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cv_camera\\\" -I/home/enping/boids/src/cv_camera/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/test_cv_camera_no_yaml.dir/test/test_cv_camera_no_yaml.cpp.o -c /home/enping/boids/src/cv_camera/test/test_cv_camera_no_yaml.cpp",
+  "file": "/home/enping/boids/src/cv_camera/test/test_cv_camera_no_yaml.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cv_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cv_camera\\\" -I/home/enping/boids/src/cv_camera/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/test_cv_camera.dir/test/test_cv_camera.cpp.o -c /home/enping/boids/src/cv_camera/test/test_cv_camera.cpp",
+  "file": "/home/enping/boids/src/cv_camera/test/test_cv_camera.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cv_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cv_camera\\\" -Dcv_camera_EXPORTS -I/home/enping/boids/src/cv_camera/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -o CMakeFiles/cv_camera.dir/src/capture.cpp.o -c /home/enping/boids/src/cv_camera/src/capture.cpp",
+  "file": "/home/enping/boids/src/cv_camera/src/capture.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cv_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cv_camera\\\" -Dcv_camera_EXPORTS -I/home/enping/boids/src/cv_camera/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -o CMakeFiles/cv_camera.dir/src/driver.cpp.o -c /home/enping/boids/src/cv_camera/src/driver.cpp",
+  "file": "/home/enping/boids/src/cv_camera/src/driver.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cv_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cv_camera\\\" -Dcv_camera_nodelet_EXPORTS -I/home/enping/boids/src/cv_camera/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -o CMakeFiles/cv_camera_nodelet.dir/src/cv_camera_nodelet.cpp.o -c /home/enping/boids/src/cv_camera/src/cv_camera_nodelet.cpp",
+  "file": "/home/enping/boids/src/cv_camera/src/cv_camera_nodelet.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/cv_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"cv_camera\\\" -I/home/enping/boids/src/cv_camera/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g   -o CMakeFiles/cv_camera_node.dir/src/cv_camera_node.cpp.o -c /home/enping/boids/src/cv_camera/src/cv_camera_node.cpp",
+  "file": "/home/enping/boids/src/cv_camera/src/cv_camera_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/libimage_proc/processor.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/libimage_proc/processor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodelets/debayer.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodelets/debayer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodelets/rectify.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodelets/rectify.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodelets/resize.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodelets/resize.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodelets/crop_decimate.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/libimage_proc/advertisement_checker.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodelets/edge_aware.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodelets/edge_aware.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -Dimage_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodelets/crop_non_zero.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g   -std=c++11 -o CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/src/nodes/image_proc.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/src/nodes/image_proc.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_proc/test",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_proc\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/src/googletest/googletest/include  -g   -std=c++11 -o CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o -c /home/enping/boids/src/image_pipeline/image_proc/test/test_rectify.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_proc/test/test_rectify.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_publisher",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_publisher\\\" -Dimage_publisher_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -o CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.o -c /home/enping/boids/src/image_pipeline/image_publisher/src/nodelet/image_publisher_nodelet.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_publisher/src/nodelet/image_publisher_nodelet.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_publisher",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_publisher\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv  -g   -o CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.o -c /home/enping/boids/src/image_pipeline/image_publisher/src/node/image_publisher.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_publisher/src/node/image_publisher.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g   -o CMakeFiles/disparity_view.dir/src/nodes/disparity_view.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodes/disparity_view.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodes/disparity_view.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g   -o CMakeFiles/stereo_view.dir/src/nodes/stereo_view.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodes/stereo_view.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodes/stereo_view.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g   -o CMakeFiles/extract_images.dir/src/nodes/extract_images.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodes/extract_images.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodes/extract_images.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g   -o CMakeFiles/video_recorder.dir/src/nodes/video_recorder.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodes/video_recorder.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodes/video_recorder.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -Dimage_view_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g -fPIC   -o CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodelets/image_nodelet.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodelets/image_nodelet.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -Dimage_view_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g -fPIC   -o CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -Dimage_view_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g -fPIC   -o CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodelets/window_thread.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodelets/window_thread.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g   -o CMakeFiles/image_saver.dir/src/nodes/image_saver.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodes/image_saver.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodes/image_saver.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_view",
+  "command": "/usr/bin/c++  -DHAVE_GTK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_view\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/atk-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include  -g   -o CMakeFiles/image_view_exe.dir/src/nodes/image_view.cpp.o -c /home/enping/boids/src/image_pipeline/image_view/src/nodes/image_view.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_view/src/nodes/image_view.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/stereo_image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"stereo_image_proc\\\" -Dstereo_image_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/stereo_image_proc/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.o -c /home/enping/boids/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/stereo_image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"stereo_image_proc\\\" -Dstereo_image_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/stereo_image_proc/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.o -c /home/enping/boids/src/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/stereo_image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"stereo_image_proc\\\" -Dstereo_image_proc_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/stereo_image_proc/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g -fPIC   -std=c++11 -o CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.o -c /home/enping/boids/src/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/stereo_image_proc",
+  "command": "/usr/bin/c++  -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"stereo_image_proc\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/image_pipeline/stereo_image_proc/include -I/home/enping/boids/src/image_pipeline/image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv  -g   -std=c++11 -o CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o -c /home/enping/boids/src/image_pipeline/stereo_image_proc/src/nodes/stereo_image_proc.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/stereo_image_proc/src/nodes/stereo_image_proc.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/depth_image_proc",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"depth_image_proc\\\" -Ddepth_image_proc_EXPORTS -I/home/enping/boids/src/image_pipeline/depth_image_proc/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -std=c++11 -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o -c /home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -std=c++11 -o CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/marker_publish.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/marker_publish.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -std=c++11 -o CMakeFiles/marker_publisher.dir/src/aruco_ros_utils.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -Daruco_ros_utils_EXPORTS -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g -fPIC   -std=c++11 -o CMakeFiles/aruco_ros_utils.dir/src/aruco_ros_utils.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -std=c++11 -o CMakeFiles/single.dir/src/simple_single.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/simple_single.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/simple_single.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -std=c++11 -o CMakeFiles/single.dir/src/aruco_ros_utils.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -std=c++11 -o CMakeFiles/double.dir/src/simple_double.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/simple_double.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/simple_double.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_ros/aruco_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_ros\\\" -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2/include -isystem /home/enping/Eurobot_2021/devel/include -isystem /home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -std=c++11 -o CMakeFiles/double.dir/src/aruco_ros_utils.cpp.o -c /home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp",
+  "file": "/home/enping/boids/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -Dslam_gmapping_nodelet_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src  -g -fPIC   -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/src/slam_gmapping.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/src/slam_gmapping.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -Dslam_gmapping_nodelet_EXPORTS -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src  -g -fPIC   -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/src/nodelet.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/src/nodelet.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/gmapping-rtest.dir/test/rtest.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/test/rtest.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/test/rtest.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src  -g   -o CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/src/slam_gmapping.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/src/slam_gmapping.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src  -g   -o CMakeFiles/slam_gmapping.dir/src/main.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/src/main.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/src/main.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src  -g   -o CMakeFiles/slam_gmapping_replay.dir/src/slam_gmapping.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/src/slam_gmapping.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/src/slam_gmapping.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/slam_gmapping/gmapping",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"gmapping\\\" -I/home/enping/boids/src/openslam_gmapping/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/slam_gmapping/gmapping/src  -g   -o CMakeFiles/slam_gmapping_replay.dir/src/replay.cpp.o -c /home/enping/boids/src/slam_gmapping/gmapping/src/replay.cpp",
+  "file": "/home/enping/boids/src/slam_gmapping/gmapping/src/replay.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c++  -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_sensors_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -std=gnu++11 -o CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_sensor.cpp.o -c /home/enping/boids/src/navigation/amcl/src/amcl/sensors/amcl_sensor.cpp",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/sensors/amcl_sensor.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c++  -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_sensors_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -std=gnu++11 -o CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_odom.cpp.o -c /home/enping/boids/src/navigation/amcl/src/amcl/sensors/amcl_odom.cpp",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/sensors/amcl_odom.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c++  -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_sensors_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -std=gnu++11 -o CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_laser.cpp.o -c /home/enping/boids/src/navigation/amcl/src/amcl/sensors/amcl_laser.cpp",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/sensors/amcl_laser.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_pf_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_pf.dir/src/amcl/pf/pf.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/pf/pf.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/pf/pf.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_pf_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_pf.dir/src/amcl/pf/pf_kdtree.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_kdtree.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_kdtree.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_pf_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_pf.dir/src/amcl/pf/pf_pdf.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_pdf.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_pdf.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_pf_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_pf.dir/src/amcl/pf/pf_vector.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_vector.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_vector.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_pf_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_pf.dir/src/amcl/pf/eig3.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/pf/eig3.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/pf/eig3.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_pf_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_pf.dir/src/amcl/pf/pf_draw.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_draw.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/pf/pf_draw.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_map_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/map/map.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/map/map.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c++  -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_map_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -std=gnu++11 -o CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o -c /home/enping/boids/src/navigation/amcl/src/amcl/map/map_cspace.cpp",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/map/map_cspace.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_map_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/map/map_range.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/map/map_range.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_map_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/map/map_store.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/map/map_store.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c89-gcc -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -Damcl_map_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g -fPIC   -o CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o   -c /home/enping/boids/src/navigation/amcl/src/amcl/map/map_draw.c",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl/map/map_draw.c"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/amcl",
+  "command": "/usr/bin/c++  -DHAVE_UNISTD_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"amcl\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/amcl/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/boids/src/navigation/amcl/src/include  -g   -std=gnu++11 -o CMakeFiles/amcl.dir/src/amcl_node.cpp.o -c /home/enping/boids/src/navigation/amcl/src/amcl_node.cpp",
+  "file": "/home/enping/boids/src/navigation/amcl/src/amcl_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/opencv -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3  -g   -std=c++11 -Wall -g -std=c++11 -o CMakeFiles/CameraResult.dir/src/CameraResult.cpp.o -c /home/enping/boids/src/aruco_pose/src/CameraResult.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/src/CameraResult.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DCV_OVERRIDE=override -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -I/home/enping/boids/src/build/devel/include -isystem /usr/include/opencv -I/home/enping/boids/src/aruco_pose/vendor/aruco/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3  -g   -std=c++11 -Wall -g -std=c++11 -fpic -fPIC -o CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/aruco.cpp.o -c /home/enping/boids/src/aruco_pose/vendor/aruco/src/aruco.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/vendor/aruco/src/aruco.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DCV_OVERRIDE=override -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -I/home/enping/boids/src/build/devel/include -isystem /usr/include/opencv -I/home/enping/boids/src/aruco_pose/vendor/aruco/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3  -g   -std=c++11 -Wall -g -std=c++11 -fpic -fPIC -o CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/charuco.cpp.o -c /home/enping/boids/src/aruco_pose/vendor/aruco/src/charuco.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/vendor/aruco/src/charuco.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DCV_OVERRIDE=override -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -I/home/enping/boids/src/build/devel/include -isystem /usr/include/opencv -I/home/enping/boids/src/aruco_pose/vendor/aruco/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3  -g   -std=c++11 -Wall -g -std=c++11 -fpic -fPIC -o CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/dictionary.cpp.o -c /home/enping/boids/src/aruco_pose/vendor/aruco/src/dictionary.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/vendor/aruco/src/dictionary.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DCV_OVERRIDE=override -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -I/home/enping/boids/src/build/devel/include -isystem /usr/include/opencv -I/home/enping/boids/src/aruco_pose/vendor/aruco/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3  -g   -std=c++11 -Wall -g -std=c++11 -fpic -fPIC -o CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/zmaxheap.cpp.o -c /home/enping/boids/src/aruco_pose/vendor/aruco/src/zmaxheap.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/vendor/aruco/src/zmaxheap.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -Daruco_pose_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -isystem /usr/include/opencv -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/boids/src/aruco_pose/vendor/aruco/include  -g -fPIC   -std=c++11 -Wall -g -std=c++11 -o CMakeFiles/aruco_pose.dir/src/aruco_detect.cpp.o -c /home/enping/boids/src/aruco_pose/src/aruco_detect.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/src/aruco_detect.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -Daruco_pose_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -isystem /usr/include/opencv -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/boids/src/aruco_pose/vendor/aruco/include  -g -fPIC   -std=c++11 -Wall -g -std=c++11 -o CMakeFiles/aruco_pose.dir/src/aruco_map.cpp.o -c /home/enping/boids/src/aruco_pose/src/aruco_map.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/src/aruco_map.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/aruco_pose",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"aruco_pose\\\" -Daruco_pose_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -isystem /usr/include/opencv -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/boids/src/aruco_pose/vendor/aruco/include  -g -fPIC   -std=c++11 -Wall -g -std=c++11 -o CMakeFiles/aruco_pose.dir/src/draw.cpp.o -c /home/enping/boids/src/aruco_pose/src/draw.cpp",
+  "file": "/home/enping/boids/src/aruco_pose/src/draw.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/fake_localization",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fake_localization\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -o CMakeFiles/fake_localization.dir/fake_localization.cpp.o -c /home/enping/boids/src/navigation/fake_localization/fake_localization.cpp",
+  "file": "/home/enping/boids/src/navigation/fake_localization/fake_localization.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_rotate",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_rotate\\\" -Dimage_rotate_EXPORTS -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -isystem /usr/include/opencv -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g -fPIC   -o CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o -c /home/enping/boids/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/image_pipeline/image_rotate",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"image_rotate\\\" -I/home/enping/boids/src/build/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -isystem /usr/include/opencv -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include  -g   -o CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o -c /home/enping/boids/src/image_pipeline/image_rotate/src/node/image_rotate.cpp",
+  "file": "/home/enping/boids/src/image_pipeline/image_rotate/src/node/image_rotate.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/usb_cam",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"usb_cam\\\" -I/home/enping/boids/src/usb_cam/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/x86_64-linux-gnu  -g   -o CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o -c /home/enping/boids/src/usb_cam/nodes/usb_cam_node.cpp",
+  "file": "/home/enping/boids/src/usb_cam/nodes/usb_cam_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/usb_cam",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"usb_cam\\\" -Dusb_cam_EXPORTS -I/home/enping/boids/src/usb_cam/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/x86_64-linux-gnu  -g -fPIC   -o CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o -c /home/enping/boids/src/usb_cam/src/usb_cam.cpp",
+  "file": "/home/enping/boids/src/usb_cam/src/usb_cam.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/voxel_grid",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"voxel_grid\\\" -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/voxel_grid_tests.dir/test/voxel_grid_tests.cpp.o -c /home/enping/boids/src/navigation/voxel_grid/test/voxel_grid_tests.cpp",
+  "file": "/home/enping/boids/src/navigation/voxel_grid/test/voxel_grid_tests.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/voxel_grid",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"voxel_grid\\\" -Dvoxel_grid_EXPORTS -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o -c /home/enping/boids/src/navigation/voxel_grid/src/voxel_grid.cpp",
+  "file": "/home/enping/boids/src/navigation/voxel_grid/src/voxel_grid.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/array_parser.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/array_parser.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_2d.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_2d.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/observation_buffer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/observation_buffer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/layer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/layer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/layer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/layered_costmap.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/layered_costmap.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_ros.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_ros.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_publisher.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_publisher.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_math.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_math.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/footprint.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/footprint.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/footprint.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dcostmap_2d_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_layer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_layer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/costmap_tester.dir/test/costmap_tester.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/costmap_tester.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/costmap_tester.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dlayers_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/plugins/inflation_layer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/plugins/inflation_layer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dlayers_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/plugins/obstacle_layer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/plugins/obstacle_layer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dlayers_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/layers.dir/plugins/static_layer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/plugins/static_layer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/plugins/static_layer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dlayers_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/plugins/voxel_layer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/plugins/voxel_layer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -Dlayers_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g -fPIC   -o CMakeFiles/layers.dir/src/observation_buffer.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/observation_buffer.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/observation_buffer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g   -o CMakeFiles/costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_cloud.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_cloud.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/array_parser_test.dir/test/array_parser_test.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/array_parser_test.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/array_parser_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g   -o CMakeFiles/costmap_2d_node.dir/src/costmap_2d_node.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_node.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/static_tests.dir/test/static_tests.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/static_tests.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/static_tests.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/inflation_tests.dir/test/inflation_tests.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/inflation_tests.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/inflation_tests.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/coordinates_test.dir/test/coordinates_test.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/coordinates_test.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/coordinates_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test  -g   -o CMakeFiles/costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_markers.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/src/costmap_2d_markers.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/footprint_tests.dir/test/footprint_tests.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/footprint_tests.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/footprint_tests.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/costmap_2d",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"costmap_2d\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_sensor_msgs/include -I/home/enping/boids/src/navigation/costmap_2d/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/obstacle_tests.dir/test/obstacle_tests.cpp.o -c /home/enping/boids/src/navigation/costmap_2d/test/obstacle_tests.cpp",
+  "file": "/home/enping/boids/src/navigation/costmap_2d/test/obstacle_tests.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/line_iterator.dir/test/line_iterator_test.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/line_iterator_test.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/line_iterator_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/base_local_planner_utest.dir/test/gtest_main.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/gtest_main.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/gtest_main.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/base_local_planner_utest.dir/test/utest.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/utest.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/utest.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/base_local_planner_utest.dir/test/velocity_iterator_test.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/velocity_iterator_test.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/velocity_iterator_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/base_local_planner_utest.dir/test/footprint_helper_test.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/footprint_helper_test.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/footprint_helper_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/base_local_planner_utest.dir/test/trajectory_generator_test.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/trajectory_generator_test.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/trajectory_generator_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/base_local_planner_utest.dir/test/map_grid_test.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/test/map_grid_test.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/test/map_grid_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g   -o CMakeFiles/point_grid.dir/src/point_grid_node.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/point_grid_node.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/point_grid_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/footprint_helper.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/footprint_helper.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/goal_functions.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/goal_functions.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/map_cell.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/map_cell.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/map_grid.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/map_grid.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/map_grid_visualizer.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/map_grid_visualizer.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/map_grid_cost_function.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/map_grid_cost_function.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/local_planner_util.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/local_planner_util.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/odometry_helper_ros.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/odometry_helper_ros.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/obstacle_cost_function.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/obstacle_cost_function.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/oscillation_cost_function.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/oscillation_cost_function.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/point_grid.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/point_grid.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/costmap_model.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/costmap_model.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/simple_trajectory_generator.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/trajectory.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/trajectory.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/twirling_cost_function.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/twirling_cost_function.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dbase_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/voxel_grid_model.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/voxel_grid_model.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dtrajectory_planner_ros_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/trajectory_planner.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/trajectory_planner.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/base_local_planner",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"base_local_planner\\\" -Dtrajectory_planner_ros_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o -c /home/enping/boids/src/navigation/base_local_planner/src/trajectory_planner_ros.cpp",
+  "file": "/home/enping/boids/src/navigation/base_local_planner/src/trajectory_planner_ros.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/carrot_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"carrot_planner\\\" -Dcarrot_planner_EXPORTS -I/home/enping/boids/src/navigation/carrot_planner/include -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/carrot_planner.dir/src/carrot_planner.cpp.o -c /home/enping/boids/src/navigation/carrot_planner/src/carrot_planner.cpp",
+  "file": "/home/enping/boids/src/navigation/carrot_planner/src/carrot_planner.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/clear_costmap_recovery",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"clear_costmap_recovery\\\" -I/home/enping/boids/src/navigation/clear_costmap_recovery/include -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/navigation/clear_costmap_recovery/test -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/clear_tester.dir/test/clear_tester.cpp.o -c /home/enping/boids/src/navigation/clear_costmap_recovery/test/clear_tester.cpp",
+  "file": "/home/enping/boids/src/navigation/clear_costmap_recovery/test/clear_tester.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/clear_costmap_recovery",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"clear_costmap_recovery\\\" -Dclear_costmap_recovery_EXPORTS -I/home/enping/boids/src/navigation/clear_costmap_recovery/include -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/boids/src/navigation/clear_costmap_recovery/test  -g -fPIC   -o CMakeFiles/clear_costmap_recovery.dir/src/clear_costmap_recovery.cpp.o -c /home/enping/boids/src/navigation/clear_costmap_recovery/src/clear_costmap_recovery.cpp",
+  "file": "/home/enping/boids/src/navigation/clear_costmap_recovery/src/clear_costmap_recovery.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/dwa_local_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"dwa_local_planner\\\" -Ddwa_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/dwa_local_planner/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o -c /home/enping/boids/src/navigation/dwa_local_planner/src/dwa_planner.cpp",
+  "file": "/home/enping/boids/src/navigation/dwa_local_planner/src/dwa_planner.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/dwa_local_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"dwa_local_planner\\\" -Ddwa_local_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/dwa_local_planner/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o -c /home/enping/boids/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp",
+  "file": "/home/enping/boids/src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/move_slow_and_clear",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"move_slow_and_clear\\\" -Dmove_slow_and_clear_EXPORTS -I/home/enping/boids/src/navigation/move_slow_and_clear/include -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g -fPIC   -o CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o -c /home/enping/boids/src/navigation/move_slow_and_clear/src/move_slow_and_clear.cpp",
+  "file": "/home/enping/boids/src/navigation/move_slow_and_clear/src/move_slow_and_clear.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/navfn",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"navfn\\\" -Dnavfn_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g -fPIC   -o CMakeFiles/navfn.dir/src/navfn.cpp.o -c /home/enping/boids/src/navigation/navfn/src/navfn.cpp",
+  "file": "/home/enping/boids/src/navigation/navfn/src/navfn.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/navfn",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"navfn\\\" -Dnavfn_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g -fPIC   -o CMakeFiles/navfn.dir/src/navfn_ros.cpp.o -c /home/enping/boids/src/navigation/navfn/src/navfn_ros.cpp",
+  "file": "/home/enping/boids/src/navigation/navfn/src/navfn_ros.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/navfn",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"navfn\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include  -g   -o CMakeFiles/navfn_node.dir/src/navfn_node.cpp.o -c /home/enping/boids/src/navigation/navfn/src/navfn_node.cpp",
+  "file": "/home/enping/boids/src/navigation/navfn/src/navfn_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/navfn/test",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"navfn\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o -c /home/enping/boids/src/navigation/navfn/test/path_calc_test.cpp",
+  "file": "/home/enping/boids/src/navigation/navfn/test/path_calc_test.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/navfn/test",
+  "command": "/usr/bin/c++  -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"navfn\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/src/googletest/googletest/include  -g   -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o -c /home/enping/boids/src/navigation/navfn/src/read_pgm_costmap.cpp",
+  "file": "/home/enping/boids/src/navigation/navfn/src/read_pgm_costmap.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/quadratic_calculator.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/quadratic_calculator.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/quadratic_calculator.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/dijkstra.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/dijkstra.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/dijkstra.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/astar.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/astar.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/astar.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/grid_path.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/grid_path.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/grid_path.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/gradient_path.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/gradient_path.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/gradient_path.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/orientation_filter.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/orientation_filter.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/orientation_filter.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -Dglobal_planner_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/global_planner.dir/src/planner_core.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/planner_core.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/planner_core.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/global_planner",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"global_planner\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/global_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/navfn/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g   -o CMakeFiles/planner.dir/src/plan_node.cpp.o -c /home/enping/boids/src/navigation/global_planner/src/plan_node.cpp",
+  "file": "/home/enping/boids/src/navigation/global_planner/src/plan_node.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/rotate_recovery",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rotate_recovery\\\" -Drotate_recovery_EXPORTS -I/home/enping/boids/src/navigation/rotate_recovery/include -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/rotate_recovery.dir/src/rotate_recovery.cpp.o -c /home/enping/boids/src/navigation/rotate_recovery/src/rotate_recovery.cpp",
+  "file": "/home/enping/boids/src/navigation/rotate_recovery/src/rotate_recovery.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/move_base",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"move_base\\\" -Dmove_base_EXPORTS -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/move_base/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/clear_costmap_recovery/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/rotate_recovery/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g -fPIC   -o CMakeFiles/move_base.dir/src/move_base.cpp.o -c /home/enping/boids/src/navigation/move_base/src/move_base.cpp",
+  "file": "/home/enping/boids/src/navigation/move_base/src/move_base.cpp"
+},
+{
+  "directory": "/home/enping/boids/src/build/navigation/move_base",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"move_base\\\" -I/home/enping/boids/src/build/devel/include -I/home/enping/boids/src/navigation/move_base/include -I/home/enping/boids/src/navigation/base_local_planner/include -I/home/enping/boids/src/navigation/costmap_2d/include -I/home/enping/boids/src/navigation/voxel_grid/include -I/home/enping/boids/src/navigation/nav_core/include -I/home/enping/boids/src/navigation/clear_costmap_recovery/include -I/home/enping/boids/src/navigation/navfn/include -I/home/enping/boids/src/navigation/rotate_recovery/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include  -g   -o CMakeFiles/move_base_node.dir/src/move_base_node.cpp.o -c /home/enping/boids/src/navigation/move_base/src/move_base_node.cpp",
+  "file": "/home/enping/boids/src/navigation/move_base/src/move_base_node.cpp"
+}
+]

@@ -1,0 +1,8 @@
+prefix=/home/enping/boids/src/build/devel
+
+Name: image_view
+Description: Description of image_view
+Version: 1.12.23
+Cflags: -I/home/enping/boids/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure

@@ -56,6 +56,8 @@ add_message_files(
   Point2D.msg
   Robot.msg
   RobotArray.msg
+  Robot_Velocity.msg
+  Robot_Velocity_Array.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -130,6 +132,10 @@ include_directories(
 add_executable(robot_pose src/robot_pose.cpp)
 add_dependencies(robot_pose robot_detection_gencpp)
 target_link_libraries(robot_pose ${catkin_LIBRARIES})
+
+add_executable(robot_velocity src/robot_velocity.cpp)
+add_dependencies(robot_velocity robot_detection_gencpp)
+target_link_libraries(robot_velocity ${catkin_LIBRARIES})
 
 # add_executable(robot_velocity src/robot_velocity.cpp)
 # target_link_libraries(robot_velocity ${catkin_LIBRARIES})
