@@ -17,15 +17,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/enping/Eurobot_2021/devel/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include"
   "/usr/include/eigen3"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
-  "/home/enping/Eurobot_2021/devel/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
   )
 
 # Targets to which this target links.

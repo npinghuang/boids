@@ -21,13 +21,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "devel/include"
   "../aruco_ros/aruco_ros/include"
   "../aruco_ros/aruco/include"
+  "/home/enping/Eurobot_2021/devel/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
-  "/home/enping/Eurobot_2021/devel/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
   )
 
 # Targets to which this target links.

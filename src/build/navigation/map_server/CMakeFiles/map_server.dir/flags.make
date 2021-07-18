@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"map_server\"
 
-CXX_INCLUDES = -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/usr/include/SDL 
+CXX_INCLUDES = -I/home/enping/boids/src/navigation/map_server/include -I/usr/include/bullet -I/home/enping/Eurobot_2021/devel/include -I/home/enping/Eurobot_2021/src/geometry2/tf2/include -I/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/SDL 
 

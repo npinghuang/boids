@@ -26,15 +26,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../navigation/clear_costmap_recovery/include"
   "../navigation/navfn/include"
   "../navigation/rotate_recovery/include"
+  "/home/enping/Eurobot_2021/devel/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
+  "/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
   "/usr/include/eigen3"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_ros/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
-  "/home/enping/Eurobot_2021/devel/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_geometry_msgs/include"
   )
 
 # Targets to which this target links.

@@ -2,6 +2,6 @@
  	<!-- <param name="/mission_param" type="int" value="0" /> -->
 	<include file="$(find aruco_pose)/launch/CupAndAruco.launch" >
     </include>
-	<node name="robot_pose" pkg="robot_detection"  type="robot_pose" output = "screen" />
+	<node name="robot_pose" pkg="robot_detection"  type="robot_pose"  />
 	<node name="robot_velocity" pkg="robot_detection" output = "screen" type="robot_velocity" />
 </launch>

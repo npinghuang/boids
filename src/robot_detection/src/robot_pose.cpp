@@ -30,10 +30,33 @@ std::vector<float>  quaternion_to_theta(std::vector<float> &RPY, float x, float 
     RPY[1] = pitch;
     RPY[2] = yaw;
   }
-  
   // ROS_INFO("xyzq %f %f %f %f", x, y, z, w);
-  ROS_INFO("RPY %f %f %f ", RPY[0], RPY[1], RPY[2]);
+  // ROS_INFO("RPY %f %f %f ", RPY[0], RPY[1], RPY[2]);
   return RPY;
+}  
+geometry_msgs::Point pose_transform_all( geometry_msgs::Point pose){
+  //to use porportion to adjust error in length
+  float p_1 = 4.8;
+  float p_2 = 3.8;
+  if (pose.x < 10){
+    pose.x = pose.x * (p_1 +1); 
+  }
+  else if (pose.x > 10){
+    pose.x = pose.x * p_2;
+  }
+  if (pose.y < 10){
+    pose.y = pose.y * p_1; 
+  }
+  else if (pose.y > 10){
+    pose.y = pose.y * p_2; 
+  }
+  if (pose.z < 10){
+    pose.z = pose.z * p_1; 
+  }
+  else if (pose.z > 10){
+    pose.z = pose.z * p_2; 
+  }
+  return pose;
 }
 void markersCallback(const aruco_pose::MarkerArray::ConstPtr &markers){
   robot_detection::RobotArray robots_array;
@@ -48,7 +71,7 @@ void markersCallback(const aruco_pose::MarkerArray::ConstPtr &markers){
     double yaww;
     ROS_INFO("xyzq %f %f %f %f ",  markers->markers[i].pose.orientation.x, markers->markers[i].pose.orientation.y, markers->markers[i].pose.orientation.z, markers->markers[i].pose.orientation.w);
     rpy = quaternion_to_theta(rpy, markers->markers[i].pose.orientation.x, markers->markers[i].pose.orientation.y, markers->markers[i].pose.orientation.z, markers->markers[i].pose.orientation.w);
-    ROS_INFO(" [%d] : roll [%f]  pitch [%f] yaw [%f] ",  robot.id, rpy[0], rpy[1], rpy[2]);
+    // ROS_INFO(" [%d] : roll [%f]  pitch [%f] yaw [%f] ",  robot.id, rpy[0], rpy[1], rpy[2]);
     _Float32 tmp;   
     switch(markers->markers[i].id % 5){
       case 0: {
@@ -102,8 +125,9 @@ void markersCallback(const aruco_pose::MarkerArray::ConstPtr &markers){
       }
       else{ // first time seeing this robot
         robot.pose = markers->markers[i].pose;
+        robot.pose.position = pose_transform_all(robot.pose.position);
         robot.orientation = tmp;
-        ROS_INFO("orientation %f %f", float(tmp), robot.orientation);
+        // ROS_INFO("orientation %f %f", float(tmp), robot.orientation);
         robot_status[robot.id] = 1;
         robots_array.robots.push_back(robot);
       }
