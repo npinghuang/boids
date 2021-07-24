@@ -21,9 +21,8 @@ find_package(catkin REQUIRED COMPONENTS
   tf2_geometry_msgs
   sensor_msgs
   message_generation
-  std_msgs
+std_msgs
   dynamic_reconfigure
-  geometry_msgs
 )
 
 find_package(OpenCV 3 REQUIRED COMPONENTS core imgproc calib3d)
@@ -76,16 +75,15 @@ add_message_files(
   Point2D.msg
   Marker.msg
   MarkerArray.msg
+  position.msg
 )
 
-##Generate services in the 'srv' folder
-add_service_files(
-   FILES
+## Generate services in the 'srv' folder
+# add_service_files(
+#   FILES
 #   Service1.srv
 #   Service2.srv
-    cup.srv
-    ns.srv
- )
+# )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -149,12 +147,25 @@ include_directories(
 )
 
 
-add_executable(CameraResult src/CameraResult.cpp)
-target_link_libraries(CameraResult ${catkin_LIBRARIES})
-add_dependencies(CameraResult aruco_pose_gencpp)
-# add_executable(CameraResultWithoutMachineStatus src/CameraResultWithoutMachineStatus.cpp)
-# target_link_libraries(CameraResultWithoutMachineStatus ${catkin_LIBRARIES})
-# add_dependencies(CameraResultWithoutMachineStatus aruco_pose_gencpp)
+add_executable(listener src/listener.cpp)
+target_link_libraries(listener ${catkin_LIBRARIES})
+add_dependencies(listener aruco_pose_gencpp)
+
+add_executable(mapping src/mapping.cpp)
+target_link_libraries(mapping ${catkin_LIBRARIES})
+add_dependencies(mapping aruco_pose_gencpp)
+
+add_executable(mapping_class src/mapping_class.cpp)
+target_link_libraries(mapping_class ${catkin_LIBRARIES})
+add_dependencies(mapping_class aruco_pose_gencpp)
+
+add_executable(mapping_class_multi src/mapping_class_multi.cpp)
+target_link_libraries(mapping_class_multi ${catkin_LIBRARIES})
+add_dependencies(mapping_class_multi aruco_pose_gencpp)
+
+add_executable(speedtest src/speedtest.cpp)
+target_link_libraries(speedtest ${catkin_LIBRARIES})
+add_dependencies(speedtest aruco_pose_gencpp)
 
 
 
@@ -189,6 +200,8 @@ target_link_libraries(aruco_pose
   ${OpenCV_LIBRARIES}
 )
 
+#add_executable(listener2 src/listener2.cpp)
+#target_link_libraries(listener2 ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############

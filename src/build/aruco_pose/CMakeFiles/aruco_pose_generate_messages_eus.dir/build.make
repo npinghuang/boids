@@ -56,8 +56,7 @@ include aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/progress.make
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/Marker.l
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/Point2D.l
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/MarkerArray.l
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/srv/ns.l
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/srv/cup.l
+aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/position.l
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/manifest.l
 
 
@@ -86,26 +85,20 @@ devel/share/roseus/ros/aruco_pose/msg/MarkerArray.l: /opt/ros/melodic/share/geom
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from aruco_pose/MarkerArray.msg"
 	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/enping/boids/src/aruco_pose/msg/MarkerArray.msg -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/share/roseus/ros/aruco_pose/msg
 
-devel/share/roseus/ros/aruco_pose/srv/ns.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-devel/share/roseus/ros/aruco_pose/srv/ns.l: ../aruco_pose/srv/ns.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from aruco_pose/ns.srv"
-	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/enping/boids/src/aruco_pose/srv/ns.srv -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/share/roseus/ros/aruco_pose/srv
-
-devel/share/roseus/ros/aruco_pose/srv/cup.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-devel/share/roseus/ros/aruco_pose/srv/cup.l: ../aruco_pose/srv/cup.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from aruco_pose/cup.srv"
-	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/enping/boids/src/aruco_pose/srv/cup.srv -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/share/roseus/ros/aruco_pose/srv
+devel/share/roseus/ros/aruco_pose/msg/position.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/aruco_pose/msg/position.l: ../aruco_pose/msg/position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from aruco_pose/position.msg"
+	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/enping/boids/src/aruco_pose/msg/position.msg -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/share/roseus/ros/aruco_pose/msg
 
 devel/share/roseus/ros/aruco_pose/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for aruco_pose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for aruco_pose"
 	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/enping/boids/src/build/devel/share/roseus/ros/aruco_pose aruco_pose std_msgs geometry_msgs
 
 aruco_pose_generate_messages_eus: aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus
 aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/Marker.l
 aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/Point2D.l
 aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/MarkerArray.l
-aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/srv/ns.l
-aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/srv/cup.l
+aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/msg/position.l
 aruco_pose_generate_messages_eus: devel/share/roseus/ros/aruco_pose/manifest.l
 aruco_pose_generate_messages_eus: aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/build.make
 

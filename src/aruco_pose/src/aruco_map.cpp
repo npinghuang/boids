@@ -132,7 +132,7 @@ public:
 
 		sync_.reset(new message_filters::Synchronizer<SyncPolicy>(SyncPolicy(10), image_sub_, info_sub_, markers_sub_));
 		sync_->registerCallback(boost::bind(&ArucoMap::callback, this, _1, _2, _3));
-
+		
 		publishMarkersFrames();
 		publishMarkers();
 		publishMapImage();

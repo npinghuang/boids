@@ -3,8 +3,7 @@ file(REMOVE_RECURSE
   "../devel/share/common-lisp/ros/aruco_pose/msg/Marker.lisp"
   "../devel/share/common-lisp/ros/aruco_pose/msg/Point2D.lisp"
   "../devel/share/common-lisp/ros/aruco_pose/msg/MarkerArray.lisp"
-  "../devel/share/common-lisp/ros/aruco_pose/srv/ns.lisp"
-  "../devel/share/common-lisp/ros/aruco_pose/srv/cup.lisp"
+  "../devel/share/common-lisp/ros/aruco_pose/msg/position.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

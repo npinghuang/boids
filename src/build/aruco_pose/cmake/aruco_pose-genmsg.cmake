@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "aruco_pose: 3 messages, 2 services")
+message(STATUS "aruco_pose: 4 messages, 0 services")
 
 set(MSG_I_FLAGS "-Iaruco_pose:/home/enping/boids/src/aruco_pose/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
 
@@ -27,19 +27,14 @@ add_custom_target(_aruco_pose_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "aruco_pose" "/home/enping/boids/src/aruco_pose/msg/Point2D.msg" ""
 )
 
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/ns.srv" NAME_WE)
-add_custom_target(_aruco_pose_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "aruco_pose" "/home/enping/boids/src/aruco_pose/srv/ns.srv" ""
-)
-
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" NAME_WE)
 add_custom_target(_aruco_pose_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "aruco_pose" "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" "aruco_pose/Marker:geometry_msgs/Pose:std_msgs/Header:aruco_pose/Point2D:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/cup.srv" NAME_WE)
+get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/position.msg" NAME_WE)
 add_custom_target(_aruco_pose_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "aruco_pose" "/home/enping/boids/src/aruco_pose/srv/cup.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "aruco_pose" "/home/enping/boids/src/aruco_pose/msg/position.msg" ""
 )
 
 #
@@ -66,20 +61,14 @@ _generate_msg_cpp(aruco_pose
   "/home/enping/boids/src/aruco_pose/msg/Marker.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/aruco_pose
 )
+_generate_msg_cpp(aruco_pose
+  "/home/enping/boids/src/aruco_pose/msg/position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/aruco_pose
+)
 
 ### Generating Services
-_generate_srv_cpp(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/ns.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/aruco_pose
-)
-_generate_srv_cpp(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/cup.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/aruco_pose
-)
 
 ### Generating Module File
 _generate_module_cpp(aruco_pose
@@ -97,11 +86,9 @@ get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Marker.m
 add_dependencies(aruco_pose_generate_messages_cpp _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Point2D.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_cpp _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/ns.srv" NAME_WE)
-add_dependencies(aruco_pose_generate_messages_cpp _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_cpp _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/cup.srv" NAME_WE)
+get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/position.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_cpp _aruco_pose_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -131,20 +118,14 @@ _generate_msg_eus(aruco_pose
   "/home/enping/boids/src/aruco_pose/msg/Marker.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/aruco_pose
 )
+_generate_msg_eus(aruco_pose
+  "/home/enping/boids/src/aruco_pose/msg/position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/aruco_pose
+)
 
 ### Generating Services
-_generate_srv_eus(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/ns.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/aruco_pose
-)
-_generate_srv_eus(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/cup.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/aruco_pose
-)
 
 ### Generating Module File
 _generate_module_eus(aruco_pose
@@ -162,11 +143,9 @@ get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Marker.m
 add_dependencies(aruco_pose_generate_messages_eus _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Point2D.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_eus _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/ns.srv" NAME_WE)
-add_dependencies(aruco_pose_generate_messages_eus _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_eus _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/cup.srv" NAME_WE)
+get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/position.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_eus _aruco_pose_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -196,20 +175,14 @@ _generate_msg_lisp(aruco_pose
   "/home/enping/boids/src/aruco_pose/msg/Marker.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/aruco_pose
 )
+_generate_msg_lisp(aruco_pose
+  "/home/enping/boids/src/aruco_pose/msg/position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/aruco_pose
+)
 
 ### Generating Services
-_generate_srv_lisp(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/ns.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/aruco_pose
-)
-_generate_srv_lisp(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/cup.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/aruco_pose
-)
 
 ### Generating Module File
 _generate_module_lisp(aruco_pose
@@ -227,11 +200,9 @@ get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Marker.m
 add_dependencies(aruco_pose_generate_messages_lisp _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Point2D.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_lisp _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/ns.srv" NAME_WE)
-add_dependencies(aruco_pose_generate_messages_lisp _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_lisp _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/cup.srv" NAME_WE)
+get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/position.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_lisp _aruco_pose_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -261,20 +232,14 @@ _generate_msg_nodejs(aruco_pose
   "/home/enping/boids/src/aruco_pose/msg/Marker.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/aruco_pose
 )
+_generate_msg_nodejs(aruco_pose
+  "/home/enping/boids/src/aruco_pose/msg/position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/aruco_pose
+)
 
 ### Generating Services
-_generate_srv_nodejs(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/ns.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/aruco_pose
-)
-_generate_srv_nodejs(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/cup.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/aruco_pose
-)
 
 ### Generating Module File
 _generate_module_nodejs(aruco_pose
@@ -292,11 +257,9 @@ get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Marker.m
 add_dependencies(aruco_pose_generate_messages_nodejs _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Point2D.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_nodejs _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/ns.srv" NAME_WE)
-add_dependencies(aruco_pose_generate_messages_nodejs _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_nodejs _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/cup.srv" NAME_WE)
+get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/position.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_nodejs _aruco_pose_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -326,20 +289,14 @@ _generate_msg_py(aruco_pose
   "/home/enping/boids/src/aruco_pose/msg/Marker.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/aruco_pose
 )
+_generate_msg_py(aruco_pose
+  "/home/enping/boids/src/aruco_pose/msg/position.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/aruco_pose
+)
 
 ### Generating Services
-_generate_srv_py(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/ns.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/aruco_pose
-)
-_generate_srv_py(aruco_pose
-  "/home/enping/boids/src/aruco_pose/srv/cup.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/aruco_pose
-)
 
 ### Generating Module File
 _generate_module_py(aruco_pose
@@ -357,11 +314,9 @@ get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Marker.m
 add_dependencies(aruco_pose_generate_messages_py _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/Point2D.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_py _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/ns.srv" NAME_WE)
-add_dependencies(aruco_pose_generate_messages_py _aruco_pose_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_py _aruco_pose_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/enping/boids/src/aruco_pose/srv/cup.srv" NAME_WE)
+get_filename_component(_filename "/home/enping/boids/src/aruco_pose/msg/position.msg" NAME_WE)
 add_dependencies(aruco_pose_generate_messages_py _aruco_pose_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

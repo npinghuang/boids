@@ -3,8 +3,7 @@ file(REMOVE_RECURSE
   "../devel/share/roseus/ros/aruco_pose/msg/Marker.l"
   "../devel/share/roseus/ros/aruco_pose/msg/Point2D.l"
   "../devel/share/roseus/ros/aruco_pose/msg/MarkerArray.l"
-  "../devel/share/roseus/ros/aruco_pose/srv/ns.l"
-  "../devel/share/roseus/ros/aruco_pose/srv/cup.l"
+  "../devel/share/roseus/ros/aruco_pose/msg/position.l"
   "../devel/share/roseus/ros/aruco_pose/manifest.l"
 )
 

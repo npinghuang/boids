@@ -55,8 +55,17 @@
 
 #include <math.h>
 
+#include <message_filters/subscriber.h>
+#include <message_filters/synchronizer.h>
+#include <message_filters/sync_policies/exact_time.h>
+#include <sensor_msgs/Image.h>
+
 using std::vector;
 using cv::Mat;
+using sensor_msgs::Image;
+using sensor_msgs::CameraInfo;
+
+typedef message_filters::sync_policies::ExactTime<Image, CameraInfo> SyncPolicy;
 
 class ArucoDetect : public nodelet::Nodelet {
 private:
@@ -68,7 +77,18 @@ private:
 	cv::Ptr<cv::aruco::Dictionary> dictionary_;
 	cv::Ptr<cv::aruco::DetectorParameters> parameters_;
 	image_transport::Publisher debug_pub_;
-	image_transport::CameraSubscriber img_sub_;
+
+
+
+
+//	image_transport::CameraSubscriber img_sub_;
+
+	message_filters::Subscriber<Image> image_sub_;
+	message_filters::Subscriber<CameraInfo> info_sub_;
+	boost::shared_ptr<message_filters::Synchronizer<SyncPolicy> > sync_;
+
+
+
 	ros::Publisher markers_pub_, vis_markers_pub_;
 	ros::Subscriber map_markers_sub_;
 	bool estimate_poses_, send_tf_, auto_flip_;
@@ -115,7 +135,12 @@ public:
 		debug_pub_ = it_priv.advertise("debug", 1);
 		markers_pub_ = nh_priv_.advertise<aruco_pose::MarkerArray>("markers", 1);
 		vis_markers_pub_ = nh_priv_.advertise<visualization_msgs::MarkerArray>("visualization", 1);
-		img_sub_ = it.subscribeCamera("image_raw", 1, &ArucoDetect::imageCallback, this);
+
+
+
+//		img_sub_ = it.subscribeCamera("image_raw", 1, &ArucoDetect::imageCallback, this);
+
+
 
 		dyn_srv_ = std::make_shared<dynamic_reconfigure::Server<aruco_pose::DetectorConfig>>(nh_priv_);
 		dynamic_reconfigure::Server<aruco_pose::DetectorConfig>::CallbackType cb;
@@ -124,6 +149,13 @@ public:
 		dyn_srv_->setCallback(cb);
 
 		NODELET_INFO("ready");
+
+		image_sub_.subscribe(nh_, "image_raw", 1);
+		info_sub_.subscribe(nh_, "camera_info", 1);
+
+		sync_.reset(new message_filters::Synchronizer<SyncPolicy>(SyncPolicy(10), image_sub_, info_sub_));
+		sync_->registerCallback(boost::bind(&ArucoDetect::imageCallback, this, _1, _2));
+
 	}
 
 private:
@@ -265,16 +297,16 @@ private:
 
 	inline void fillPose(geometry_msgs::Pose& pose, const cv::Vec3d& rvec, const cv::Vec3d& tvec) const
 	{
-	        
-        //         int degree = 60;
-        //         pose.position.x = (tvec[2] * 0.1) * cos(degree*M_PI/180);
-		// pose.position.y = -tvec[0] * 0.1;
-		// pose.position.z = -(tvec[1] * 0.1) * cos(degree*M_PI/180);
+	        /***
+                int degree = 60;
+                pose.position.x = (tvec[2] * 0.1) * cos(degree*M_PI/180);
+		pose.position.y = -tvec[0] * 0.1;
+		pose.position.z = -(tvec[1] * 0.1) * cos(degree*M_PI/180);
+		***/
 
-
-        pose.position.x = tvec[0];
-		pose.position.y = tvec[1];
-		pose.position.z = tvec[2];
+		pose.position.x = tvec[0]*100;
+		pose.position.y = tvec[1]*100;
+		pose.position.z = tvec[2]*100;
 
 		double angle = norm(rvec);
 		cv::Vec3d axis = rvec / angle;

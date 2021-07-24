@@ -38,24 +38,29 @@ geometry_msgs::Point pose_transform_all( geometry_msgs::Point pose){
   //to use porportion to adjust error in length
   float p_1 = 4.8;
   float p_2 = 3.8;
-  if (pose.x < 10){
-    pose.x = pose.x * (p_1 +1); 
-  }
-  else if (pose.x > 10){
-    pose.x = pose.x * p_2;
-  }
-  if (pose.y < 10){
-    pose.y = pose.y * p_1; 
-  }
-  else if (pose.y > 10){
-    pose.y = pose.y * p_2; 
-  }
-  if (pose.z < 10){
-    pose.z = pose.z * p_1; 
-  }
-  else if (pose.z > 10){
-    pose.z = pose.z * p_2; 
-  }
+  // if (pose.x < 10){
+  //   pose.x = pose.x * (p_1 +1); 
+  // }
+  // else if (pose.x > 10){
+  //   pose.x = pose.x * p_2;
+  // }
+  // if (pose.y < 10){
+  //   pose.y = pose.y * p_1; 
+  // }
+  // else if (pose.y > 10){
+  //   pose.y = pose.y * p_2; 
+  // }
+  // if (pose.z < 10){
+  //   pose.z = pose.z * p_1; 
+  // }
+  // else if (pose.z > 10){
+  //   pose.z = pose.z * p_2; 
+  // }
+  pose.x = pose.x * 10; 
+  pose.y = pose.y * 10; 
+  pose.z = pose.z * 10; 
+
+
   return pose;
 }
 void markersCallback(const aruco_pose::MarkerArray::ConstPtr &markers){
@@ -113,12 +118,14 @@ void markersCallback(const aruco_pose::MarkerArray::ConstPtr &markers){
     ROS_INFO("robot  [%d]",  robot.id);
     int robot_index; // the index of previous robot info in robot array
     if ( robot.id <= 4 ){ // determine if the marker is one of our robot
-      if ( robot_status[robot.id] == 1){ // it means that i have seen more than marker of this robot
+      if ( robot_status[robot.id] == 1){ // it means that i have seen more than one marker of this robot
         for ( robot_index = 0; robot_index < 4; robot_index ++){
           if ( robot.id == robots_array.robots[robot_index].id){
             ROS_INFO("seen this robot!");
-            // robot.pose = robots_array.robots[robot_index].pose;
-            // robots_array.robots[robot_index].orientation = (robots_array.robots[robot_index].orientation + tmp)/2;
+            robot.pose.position.x = (robots_array.robots[robot_index].pose.position.x + robot.pose.position.x)/2;
+            robot.pose.position.y = (robots_array.robots[robot_index].pose.position.y + robot.pose.position.y)/2;
+            robot.pose.position.z = (robots_array.robots[robot_index].pose.position.z + robot.pose.position.z)/2;
+            robots_array.robots[robot_index].orientation = (robots_array.robots[robot_index].orientation + tmp)/2;
             break;
           }
         }

@@ -3,8 +3,7 @@ file(REMOVE_RECURSE
   "../devel/include/aruco_pose/Marker.h"
   "../devel/include/aruco_pose/Point2D.h"
   "../devel/include/aruco_pose/MarkerArray.h"
-  "../devel/include/aruco_pose/ns.h"
-  "../devel/include/aruco_pose/cup.h"
+  "../devel/include/aruco_pose/position.h"
 )
 
 # Per-language clean rules from dependency scanning.

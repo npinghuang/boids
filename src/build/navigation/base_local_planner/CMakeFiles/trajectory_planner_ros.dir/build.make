@@ -132,10 +132,10 @@ devel/lib/libtrajectory_planner_ros.so: /usr/lib/x86_64-linux-gnu/libboost_progr
 devel/lib/libtrajectory_planner_ros.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/libtrajectory_planner_ros.so: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/libtrajectory_planner_ros.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/libtrajectory_planner_ros.so: /home/enping/Eurobot_2021/devel/lib/libtf2_ros.so
+devel/lib/libtrajectory_planner_ros.so: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
 devel/lib/libtrajectory_planner_ros.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/libtrajectory_planner_ros.so: /opt/ros/melodic/lib/libmessage_filters.so
-devel/lib/libtrajectory_planner_ros.so: /home/enping/Eurobot_2021/devel/lib/libtf2.so
+devel/lib/libtrajectory_planner_ros.so: /home/enping/catkin_ws/devel/lib/libtf2.so
 devel/lib/libtrajectory_planner_ros.so: devel/lib/libvoxel_grid.so
 devel/lib/libtrajectory_planner_ros.so: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/libtrajectory_planner_ros.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

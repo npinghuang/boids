@@ -80,6 +80,18 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -123,18 +135,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/enping/boids/src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/enping/boids/src/build/CMakeFiles /home/enping/boids/src/build/aruco_pose/CMakeFiles/progress.marks
@@ -168,19 +168,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule
-.PHONY : aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule
+aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
+.PHONY : aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
 
 # Convenience name for target.
-aruco_pose_generate_messages_py: aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule
+_run_tests_aruco_pose_rostest_test_largemap.test: aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
 
-.PHONY : aruco_pose_generate_messages_py
+.PHONY : _run_tests_aruco_pose_rostest_test_largemap.test
 
 # fast build rule for target.
-aruco_pose_generate_messages_py/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/build.make aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/build
-.PHONY : aruco_pose_generate_messages_py/fast
+_run_tests_aruco_pose_rostest_test_largemap.test/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/build.make aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/build
+.PHONY : _run_tests_aruco_pose_rostest_test_largemap.test/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule
+.PHONY : aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule
+
+# Convenience name for target.
+aruco_pose_genpy: aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule
+
+.PHONY : aruco_pose_genpy
+
+# fast build rule for target.
+aruco_pose_genpy/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/aruco_pose_genpy.dir/build.make aruco_pose/CMakeFiles/aruco_pose_genpy.dir/build
+.PHONY : aruco_pose_genpy/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule
+.PHONY : aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule
+
+# Convenience name for target.
+_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test: aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule
+
+.PHONY : _run_tests_aruco_pose_rostest_test_test_parser_empty_map.test
+
+# fast build rule for target.
+_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/build.make aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/build
+.PHONY : _run_tests_aruco_pose_rostest_test_test_parser_empty_map.test/fast
 
 # Convenience name for target.
 aruco_pose/CMakeFiles/aruco_pose_gennodejs.dir/rule:
@@ -243,6 +273,21 @@ aruco_pose_geneus/fast:
 .PHONY : aruco_pose_geneus/fast
 
 # Convenience name for target.
+aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_position.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_position.dir/rule
+.PHONY : aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_position.dir/rule
+
+# Convenience name for target.
+_aruco_pose_generate_messages_check_deps_position: aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_position.dir/rule
+
+.PHONY : _aruco_pose_generate_messages_check_deps_position
+
+# fast build rule for target.
+_aruco_pose_generate_messages_check_deps_position/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_position.dir/build.make aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_position.dir/build
+.PHONY : _aruco_pose_generate_messages_check_deps_position/fast
+
+# Convenience name for target.
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp.dir/rule:
 	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp.dir/rule
 .PHONY : aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp.dir/rule
@@ -258,21 +303,6 @@ aruco_pose_generate_messages_cpp/fast:
 .PHONY : aruco_pose_generate_messages_cpp/fast
 
 # Convenience name for target.
-aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_ns.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_ns.dir/rule
-.PHONY : aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_ns.dir/rule
-
-# Convenience name for target.
-_aruco_pose_generate_messages_check_deps_ns: aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_ns.dir/rule
-
-.PHONY : _aruco_pose_generate_messages_check_deps_ns
-
-# fast build rule for target.
-_aruco_pose_generate_messages_check_deps_ns/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_ns.dir/build.make aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_ns.dir/build
-.PHONY : _aruco_pose_generate_messages_check_deps_ns/fast
-
-# Convenience name for target.
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/rule:
 	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/rule
 .PHONY : aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/rule
@@ -286,6 +316,36 @@ aruco_pose_generate_messages_eus: aruco_pose/CMakeFiles/aruco_pose_generate_mess
 aruco_pose_generate_messages_eus/fast:
 	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/build.make aruco_pose/CMakeFiles/aruco_pose_generate_messages_eus.dir/build
 .PHONY : aruco_pose_generate_messages_eus/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
+.PHONY : aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
+
+# Convenience name for target.
+run_tests_aruco_pose_rostest_test_largemap.test: aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
+
+.PHONY : run_tests_aruco_pose_rostest_test_largemap.test
+
+# fast build rule for target.
+run_tests_aruco_pose_rostest_test_largemap.test/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/build.make aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/build
+.PHONY : run_tests_aruco_pose_rostest_test_largemap.test/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule
+.PHONY : aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule
+
+# Convenience name for target.
+run_tests_aruco_pose_rostest: aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule
+
+.PHONY : run_tests_aruco_pose_rostest
+
+# fast build rule for target.
+run_tests_aruco_pose_rostest/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/build.make aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/build
+.PHONY : run_tests_aruco_pose_rostest/fast
 
 # Convenience name for target.
 aruco_pose/CMakeFiles/aruco_pose_generate_messages.dir/rule:
@@ -393,36 +453,6 @@ _aruco_pose_generate_messages_check_deps_MarkerArray/fast:
 .PHONY : _aruco_pose_generate_messages_check_deps_MarkerArray/fast
 
 # Convenience name for target.
-aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule
-.PHONY : aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule
-
-# Convenience name for target.
-_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test: aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/rule
-
-.PHONY : _run_tests_aruco_pose_rostest_test_test_parser_empty_map.test
-
-# fast build rule for target.
-_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/build.make aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_parser_empty_map.test.dir/build
-.PHONY : _run_tests_aruco_pose_rostest_test_test_parser_empty_map.test/fast
-
-# Convenience name for target.
-aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule
-.PHONY : aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule
-
-# Convenience name for target.
-aruco_pose_genpy: aruco_pose/CMakeFiles/aruco_pose_genpy.dir/rule
-
-.PHONY : aruco_pose_genpy
-
-# fast build rule for target.
-aruco_pose_genpy/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/aruco_pose_genpy.dir/build.make aruco_pose/CMakeFiles/aruco_pose_genpy.dir/build
-.PHONY : aruco_pose_genpy/fast
-
-# Convenience name for target.
 aruco_pose/CMakeFiles/aruco_pose_gencfg.dir/rule:
 	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_gencfg.dir/rule
 .PHONY : aruco_pose/CMakeFiles/aruco_pose_gencfg.dir/rule
@@ -453,34 +483,79 @@ run_tests_aruco_pose_rostest_test_test_parser_empty_map.test/fast:
 .PHONY : run_tests_aruco_pose_rostest_test_test_parser_empty_map.test/fast
 
 # Convenience name for target.
-aruco_pose/CMakeFiles/CameraResult.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/CameraResult.dir/rule
-.PHONY : aruco_pose/CMakeFiles/CameraResult.dir/rule
+aruco_pose/CMakeFiles/mapping.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/mapping.dir/rule
+.PHONY : aruco_pose/CMakeFiles/mapping.dir/rule
 
 # Convenience name for target.
-CameraResult: aruco_pose/CMakeFiles/CameraResult.dir/rule
+mapping: aruco_pose/CMakeFiles/mapping.dir/rule
 
-.PHONY : CameraResult
+.PHONY : mapping
 
 # fast build rule for target.
-CameraResult/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/CameraResult.dir/build.make aruco_pose/CMakeFiles/CameraResult.dir/build
-.PHONY : CameraResult/fast
+mapping/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping.dir/build.make aruco_pose/CMakeFiles/mapping.dir/build
+.PHONY : mapping/fast
 
 # Convenience name for target.
-aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_cup.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_cup.dir/rule
-.PHONY : aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_cup.dir/rule
+aruco_pose/CMakeFiles/mapping_class.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/mapping_class.dir/rule
+.PHONY : aruco_pose/CMakeFiles/mapping_class.dir/rule
 
 # Convenience name for target.
-_aruco_pose_generate_messages_check_deps_cup: aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_cup.dir/rule
+mapping_class: aruco_pose/CMakeFiles/mapping_class.dir/rule
 
-.PHONY : _aruco_pose_generate_messages_check_deps_cup
+.PHONY : mapping_class
 
 # fast build rule for target.
-_aruco_pose_generate_messages_check_deps_cup/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_cup.dir/build.make aruco_pose/CMakeFiles/_aruco_pose_generate_messages_check_deps_cup.dir/build
-.PHONY : _aruco_pose_generate_messages_check_deps_cup/fast
+mapping_class/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class.dir/build.make aruco_pose/CMakeFiles/mapping_class.dir/build
+.PHONY : mapping_class/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/mapping_class_multi.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/mapping_class_multi.dir/rule
+.PHONY : aruco_pose/CMakeFiles/mapping_class_multi.dir/rule
+
+# Convenience name for target.
+mapping_class_multi: aruco_pose/CMakeFiles/mapping_class_multi.dir/rule
+
+.PHONY : mapping_class_multi
+
+# fast build rule for target.
+mapping_class_multi/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class_multi.dir/build.make aruco_pose/CMakeFiles/mapping_class_multi.dir/build
+.PHONY : mapping_class_multi/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule
+.PHONY : aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule
+
+# Convenience name for target.
+aruco_pose_generate_messages_py: aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/rule
+
+.PHONY : aruco_pose_generate_messages_py
+
+# fast build rule for target.
+aruco_pose_generate_messages_py/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/build.make aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/build
+.PHONY : aruco_pose_generate_messages_py/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/speedtest.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/speedtest.dir/rule
+.PHONY : aruco_pose/CMakeFiles/speedtest.dir/rule
+
+# Convenience name for target.
+speedtest: aruco_pose/CMakeFiles/speedtest.dir/rule
+
+.PHONY : speedtest
+
+# fast build rule for target.
+speedtest/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/speedtest.dir/build.make aruco_pose/CMakeFiles/speedtest.dir/build
+.PHONY : speedtest/fast
 
 # Convenience name for target.
 aruco_pose/CMakeFiles/_opencv_aruco.dir/rule:
@@ -496,6 +571,21 @@ _opencv_aruco: aruco_pose/CMakeFiles/_opencv_aruco.dir/rule
 _opencv_aruco/fast:
 	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_opencv_aruco.dir/build.make aruco_pose/CMakeFiles/_opencv_aruco.dir/build
 .PHONY : _opencv_aruco/fast
+
+# Convenience name for target.
+aruco_pose/CMakeFiles/listener.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/listener.dir/rule
+.PHONY : aruco_pose/CMakeFiles/listener.dir/rule
+
+# Convenience name for target.
+listener: aruco_pose/CMakeFiles/listener.dir/rule
+
+.PHONY : listener
+
+# fast build rule for target.
+listener/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/listener.dir/build.make aruco_pose/CMakeFiles/listener.dir/build
+.PHONY : listener/fast
 
 # Convenience name for target.
 aruco_pose/CMakeFiles/aruco_pose.dir/rule:
@@ -573,36 +663,6 @@ run_tests_aruco_pose_rostest_test_basic.test/fast:
 .PHONY : run_tests_aruco_pose_rostest_test_basic.test/fast
 
 # Convenience name for target.
-aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule
-.PHONY : aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule
-
-# Convenience name for target.
-run_tests_aruco_pose_rostest: aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/rule
-
-.PHONY : run_tests_aruco_pose_rostest
-
-# fast build rule for target.
-run_tests_aruco_pose_rostest/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/build.make aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest.dir/build
-.PHONY : run_tests_aruco_pose_rostest/fast
-
-# Convenience name for target.
-aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
-.PHONY : aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
-
-# Convenience name for target.
-run_tests_aruco_pose_rostest_test_largemap.test: aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
-
-.PHONY : run_tests_aruco_pose_rostest_test_largemap.test
-
-# fast build rule for target.
-run_tests_aruco_pose_rostest_test_largemap.test/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/build.make aruco_pose/CMakeFiles/run_tests_aruco_pose_rostest_test_largemap.test.dir/build
-.PHONY : run_tests_aruco_pose_rostest_test_largemap.test/fast
-
-# Convenience name for target.
 aruco_pose/CMakeFiles/clean_test_results_aruco_pose.dir/rule:
 	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/clean_test_results_aruco_pose.dir/rule
 .PHONY : aruco_pose/CMakeFiles/clean_test_results_aruco_pose.dir/rule
@@ -676,48 +736,6 @@ _run_tests_aruco_pose_rostest_test_test_node_failure.test: aruco_pose/CMakeFiles
 _run_tests_aruco_pose_rostest_test_test_node_failure.test/fast:
 	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_node_failure.test.dir/build.make aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_test_node_failure.test.dir/build
 .PHONY : _run_tests_aruco_pose_rostest_test_test_node_failure.test/fast
-
-# Convenience name for target.
-aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
-.PHONY : aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
-
-# Convenience name for target.
-_run_tests_aruco_pose_rostest_test_largemap.test: aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/rule
-
-.PHONY : _run_tests_aruco_pose_rostest_test_largemap.test
-
-# fast build rule for target.
-_run_tests_aruco_pose_rostest_test_largemap.test/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/build.make aruco_pose/CMakeFiles/_run_tests_aruco_pose_rostest_test_largemap.test.dir/build
-.PHONY : _run_tests_aruco_pose_rostest_test_largemap.test/fast
-
-src/CameraResult.o: src/CameraResult.cpp.o
-
-.PHONY : src/CameraResult.o
-
-# target to build an object file
-src/CameraResult.cpp.o:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/CameraResult.dir/build.make aruco_pose/CMakeFiles/CameraResult.dir/src/CameraResult.cpp.o
-.PHONY : src/CameraResult.cpp.o
-
-src/CameraResult.i: src/CameraResult.cpp.i
-
-.PHONY : src/CameraResult.i
-
-# target to preprocess a source file
-src/CameraResult.cpp.i:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/CameraResult.dir/build.make aruco_pose/CMakeFiles/CameraResult.dir/src/CameraResult.cpp.i
-.PHONY : src/CameraResult.cpp.i
-
-src/CameraResult.s: src/CameraResult.cpp.s
-
-.PHONY : src/CameraResult.s
-
-# target to generate assembly for a file
-src/CameraResult.cpp.s:
-	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/CameraResult.dir/build.make aruco_pose/CMakeFiles/CameraResult.dir/src/CameraResult.cpp.s
-.PHONY : src/CameraResult.cpp.s
 
 src/aruco_detect.o: src/aruco_detect.cpp.o
 
@@ -799,6 +817,141 @@ src/draw.s: src/draw.cpp.s
 src/draw.cpp.s:
 	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/aruco_pose.dir/build.make aruco_pose/CMakeFiles/aruco_pose.dir/src/draw.cpp.s
 .PHONY : src/draw.cpp.s
+
+src/listener.o: src/listener.cpp.o
+
+.PHONY : src/listener.o
+
+# target to build an object file
+src/listener.cpp.o:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/listener.dir/build.make aruco_pose/CMakeFiles/listener.dir/src/listener.cpp.o
+.PHONY : src/listener.cpp.o
+
+src/listener.i: src/listener.cpp.i
+
+.PHONY : src/listener.i
+
+# target to preprocess a source file
+src/listener.cpp.i:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/listener.dir/build.make aruco_pose/CMakeFiles/listener.dir/src/listener.cpp.i
+.PHONY : src/listener.cpp.i
+
+src/listener.s: src/listener.cpp.s
+
+.PHONY : src/listener.s
+
+# target to generate assembly for a file
+src/listener.cpp.s:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/listener.dir/build.make aruco_pose/CMakeFiles/listener.dir/src/listener.cpp.s
+.PHONY : src/listener.cpp.s
+
+src/mapping.o: src/mapping.cpp.o
+
+.PHONY : src/mapping.o
+
+# target to build an object file
+src/mapping.cpp.o:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping.dir/build.make aruco_pose/CMakeFiles/mapping.dir/src/mapping.cpp.o
+.PHONY : src/mapping.cpp.o
+
+src/mapping.i: src/mapping.cpp.i
+
+.PHONY : src/mapping.i
+
+# target to preprocess a source file
+src/mapping.cpp.i:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping.dir/build.make aruco_pose/CMakeFiles/mapping.dir/src/mapping.cpp.i
+.PHONY : src/mapping.cpp.i
+
+src/mapping.s: src/mapping.cpp.s
+
+.PHONY : src/mapping.s
+
+# target to generate assembly for a file
+src/mapping.cpp.s:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping.dir/build.make aruco_pose/CMakeFiles/mapping.dir/src/mapping.cpp.s
+.PHONY : src/mapping.cpp.s
+
+src/mapping_class.o: src/mapping_class.cpp.o
+
+.PHONY : src/mapping_class.o
+
+# target to build an object file
+src/mapping_class.cpp.o:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class.dir/build.make aruco_pose/CMakeFiles/mapping_class.dir/src/mapping_class.cpp.o
+.PHONY : src/mapping_class.cpp.o
+
+src/mapping_class.i: src/mapping_class.cpp.i
+
+.PHONY : src/mapping_class.i
+
+# target to preprocess a source file
+src/mapping_class.cpp.i:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class.dir/build.make aruco_pose/CMakeFiles/mapping_class.dir/src/mapping_class.cpp.i
+.PHONY : src/mapping_class.cpp.i
+
+src/mapping_class.s: src/mapping_class.cpp.s
+
+.PHONY : src/mapping_class.s
+
+# target to generate assembly for a file
+src/mapping_class.cpp.s:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class.dir/build.make aruco_pose/CMakeFiles/mapping_class.dir/src/mapping_class.cpp.s
+.PHONY : src/mapping_class.cpp.s
+
+src/mapping_class_multi.o: src/mapping_class_multi.cpp.o
+
+.PHONY : src/mapping_class_multi.o
+
+# target to build an object file
+src/mapping_class_multi.cpp.o:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class_multi.dir/build.make aruco_pose/CMakeFiles/mapping_class_multi.dir/src/mapping_class_multi.cpp.o
+.PHONY : src/mapping_class_multi.cpp.o
+
+src/mapping_class_multi.i: src/mapping_class_multi.cpp.i
+
+.PHONY : src/mapping_class_multi.i
+
+# target to preprocess a source file
+src/mapping_class_multi.cpp.i:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class_multi.dir/build.make aruco_pose/CMakeFiles/mapping_class_multi.dir/src/mapping_class_multi.cpp.i
+.PHONY : src/mapping_class_multi.cpp.i
+
+src/mapping_class_multi.s: src/mapping_class_multi.cpp.s
+
+.PHONY : src/mapping_class_multi.s
+
+# target to generate assembly for a file
+src/mapping_class_multi.cpp.s:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/mapping_class_multi.dir/build.make aruco_pose/CMakeFiles/mapping_class_multi.dir/src/mapping_class_multi.cpp.s
+.PHONY : src/mapping_class_multi.cpp.s
+
+src/speedtest.o: src/speedtest.cpp.o
+
+.PHONY : src/speedtest.o
+
+# target to build an object file
+src/speedtest.cpp.o:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/speedtest.dir/build.make aruco_pose/CMakeFiles/speedtest.dir/src/speedtest.cpp.o
+.PHONY : src/speedtest.cpp.o
+
+src/speedtest.i: src/speedtest.cpp.i
+
+.PHONY : src/speedtest.i
+
+# target to preprocess a source file
+src/speedtest.cpp.i:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/speedtest.dir/build.make aruco_pose/CMakeFiles/speedtest.dir/src/speedtest.cpp.i
+.PHONY : src/speedtest.cpp.i
+
+src/speedtest.s: src/speedtest.cpp.s
+
+.PHONY : src/speedtest.s
+
+# target to generate assembly for a file
+src/speedtest.cpp.s:
+	cd /home/enping/boids/src/build && $(MAKE) -f aruco_pose/CMakeFiles/speedtest.dir/build.make aruco_pose/CMakeFiles/speedtest.dir/src/speedtest.cpp.s
+.PHONY : src/speedtest.cpp.s
 
 vendor/aruco/src/aruco.o: vendor/aruco/src/aruco.cpp.o
 
@@ -916,17 +1069,23 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... aruco_pose_generate_messages_py"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... _run_tests_aruco_pose_rostest_test_largemap.test"
+	@echo "... aruco_pose_genpy"
+	@echo "... _run_tests_aruco_pose_rostest_test_test_parser_empty_map.test"
 	@echo "... aruco_pose_gennodejs"
 	@echo "... _aruco_pose_generate_messages_check_deps_Point2D"
 	@echo "... aruco_pose_genlisp"
 	@echo "... aruco_pose_geneus"
+	@echo "... _aruco_pose_generate_messages_check_deps_position"
 	@echo "... aruco_pose_generate_messages_cpp"
-	@echo "... edit_cache"
-	@echo "... _aruco_pose_generate_messages_check_deps_ns"
 	@echo "... aruco_pose_generate_messages_eus"
+	@echo "... run_tests_aruco_pose_rostest_test_largemap.test"
+	@echo "... run_tests_aruco_pose_rostest"
 	@echo "... aruco_pose_generate_messages"
 	@echo "... _aruco_pose_generate_messages_check_deps_Marker"
 	@echo "... _run_tests_aruco_pose"
@@ -934,31 +1093,25 @@ help:
 	@echo "... aruco_pose_generate_messages_nodejs"
 	@echo "... aruco_pose_generate_messages_lisp"
 	@echo "... _aruco_pose_generate_messages_check_deps_MarkerArray"
-	@echo "... test"
-	@echo "... _run_tests_aruco_pose_rostest_test_test_parser_empty_map.test"
-	@echo "... aruco_pose_genpy"
 	@echo "... aruco_pose_gencfg"
 	@echo "... run_tests_aruco_pose_rostest_test_test_parser_empty_map.test"
-	@echo "... install"
-	@echo "... CameraResult"
-	@echo "... _aruco_pose_generate_messages_check_deps_cup"
+	@echo "... mapping"
+	@echo "... mapping_class"
+	@echo "... mapping_class_multi"
+	@echo "... aruco_pose_generate_messages_py"
+	@echo "... speedtest"
 	@echo "... _opencv_aruco"
+	@echo "... listener"
 	@echo "... aruco_pose"
 	@echo "... run_tests_aruco_pose"
 	@echo "... _run_tests_aruco_pose_rostest"
 	@echo "... aruco_pose_gencpp"
 	@echo "... run_tests_aruco_pose_rostest_test_basic.test"
-	@echo "... run_tests_aruco_pose_rostest"
-	@echo "... run_tests_aruco_pose_rostest_test_largemap.test"
 	@echo "... clean_test_results_aruco_pose"
 	@echo "... run_tests_aruco_pose_rostest_test_test_parser_pass.test"
 	@echo "... run_tests_aruco_pose_rostest_test_test_node_failure.test"
 	@echo "... _run_tests_aruco_pose_rostest_test_basic.test"
 	@echo "... _run_tests_aruco_pose_rostest_test_test_node_failure.test"
-	@echo "... _run_tests_aruco_pose_rostest_test_largemap.test"
-	@echo "... src/CameraResult.o"
-	@echo "... src/CameraResult.i"
-	@echo "... src/CameraResult.s"
 	@echo "... src/aruco_detect.o"
 	@echo "... src/aruco_detect.i"
 	@echo "... src/aruco_detect.s"
@@ -968,6 +1121,21 @@ help:
 	@echo "... src/draw.o"
 	@echo "... src/draw.i"
 	@echo "... src/draw.s"
+	@echo "... src/listener.o"
+	@echo "... src/listener.i"
+	@echo "... src/listener.s"
+	@echo "... src/mapping.o"
+	@echo "... src/mapping.i"
+	@echo "... src/mapping.s"
+	@echo "... src/mapping_class.o"
+	@echo "... src/mapping_class.i"
+	@echo "... src/mapping_class.s"
+	@echo "... src/mapping_class_multi.o"
+	@echo "... src/mapping_class_multi.i"
+	@echo "... src/mapping_class_multi.s"
+	@echo "... src/speedtest.o"
+	@echo "... src/speedtest.i"
+	@echo "... src/speedtest.s"
 	@echo "... vendor/aruco/src/aruco.o"
 	@echo "... vendor/aruco/src/aruco.i"
 	@echo "... vendor/aruco/src/aruco.s"

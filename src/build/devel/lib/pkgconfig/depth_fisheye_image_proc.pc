@@ -1,0 +1,8 @@
+prefix=/home/enping/boids/src/build/devel
+
+Name: depth_fisheye_image_proc
+Description: Description of depth_fisheye_image_proc
+Version: 1.12.23
+Cflags: -I/home/enping/boids/src/fisheye_calibration/depth_fisheye_image_proc/include
+Libs: -L${prefix}/lib -ldepth_fisheye_image_proc
+Requires: 

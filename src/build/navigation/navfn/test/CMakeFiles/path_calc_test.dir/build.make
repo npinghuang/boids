@@ -134,7 +134,7 @@ devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/librospack.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-devel/lib/navfn/path_calc_test: /home/enping/Eurobot_2021/devel/lib/libtf2_ros.so
+devel/lib/navfn/path_calc_test: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libroscpp.so
@@ -145,7 +145,7 @@ devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/librosconsole_backend_inter
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/navfn/path_calc_test: /home/enping/Eurobot_2021/devel/lib/libtf2.so
+devel/lib/navfn/path_calc_test: /home/enping/catkin_ws/devel/lib/libtf2.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/librostime.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libcpp_common.so

@@ -56,8 +56,7 @@ include aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/progress.make
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Marker.py
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Point2D.py
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_MarkerArray.py
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py
+aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py
 
@@ -87,40 +86,32 @@ devel/lib/python2.7/dist-packages/aruco_pose/msg/_MarkerArray.py: /opt/ros/melod
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG aruco_pose/MarkerArray"
 	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/enping/boids/src/aruco_pose/msg/MarkerArray.msg -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/lib/python2.7/dist-packages/aruco_pose/msg
 
-devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py: ../aruco_pose/srv/ns.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV aruco_pose/ns"
-	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/enping/boids/src/aruco_pose/srv/ns.srv -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/lib/python2.7/dist-packages/aruco_pose/srv
-
-devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py: ../aruco_pose/srv/cup.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV aruco_pose/cup"
-	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/enping/boids/src/aruco_pose/srv/cup.srv -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/lib/python2.7/dist-packages/aruco_pose/srv
+devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py: ../aruco_pose/msg/position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG aruco_pose/position"
+	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/enping/boids/src/aruco_pose/msg/position.msg -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/lib/python2.7/dist-packages/aruco_pose/msg
 
 devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Marker.py
 devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Point2D.py
 devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_MarkerArray.py
-devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py
-devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for aruco_pose"
+devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python msg __init__.py for aruco_pose"
 	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/enping/boids/src/build/devel/lib/python2.7/dist-packages/aruco_pose/msg --initpy
 
 devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Marker.py
 devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Point2D.py
 devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_MarkerArray.py
-devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py
-devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for aruco_pose"
+devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python srv __init__.py for aruco_pose"
 	cd /home/enping/boids/src/build/aruco_pose && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/enping/boids/src/build/devel/lib/python2.7/dist-packages/aruco_pose/srv --initpy
 
 aruco_pose_generate_messages_py: aruco_pose/CMakeFiles/aruco_pose_generate_messages_py
 aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Marker.py
 aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_Point2D.py
 aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_MarkerArray.py
-aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py
-aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py
+aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py
 aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py
 aruco_pose_generate_messages_py: devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py
 aruco_pose_generate_messages_py: aruco_pose/CMakeFiles/aruco_pose_generate_messages_py.dir/build.make

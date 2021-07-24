@@ -131,13 +131,13 @@ devel/lib/aruco_ros/single: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 devel/lib/aruco_ros/single: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 devel/lib/aruco_ros/single: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/libtf.so
-devel/lib/aruco_ros/single: /home/enping/Eurobot_2021/devel/lib/libtf2_ros.so
+devel/lib/aruco_ros/single: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/aruco_ros/single: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/aruco_ros/single: /home/enping/Eurobot_2021/devel/lib/libtf2.so
+devel/lib/aruco_ros/single: /home/enping/catkin_ws/devel/lib/libtf2.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/librosconsole.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 devel/lib/aruco_ros/single: /opt/ros/melodic/lib/librosconsole_backend_interface.so

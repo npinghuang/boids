@@ -56,8 +56,7 @@ include aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp.dir/progress.make
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp: devel/include/aruco_pose/Marker.h
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp: devel/include/aruco_pose/Point2D.h
 aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp: devel/include/aruco_pose/MarkerArray.h
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp: devel/include/aruco_pose/ns.h
-aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp: devel/include/aruco_pose/cup.h
+aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp: devel/include/aruco_pose/position.h
 
 
 devel/include/aruco_pose/Marker.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -88,26 +87,17 @@ devel/include/aruco_pose/MarkerArray.h: /opt/ros/melodic/share/gencpp/msg.h.temp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from aruco_pose/MarkerArray.msg"
 	cd /home/enping/boids/src/aruco_pose && /home/enping/boids/src/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/enping/boids/src/aruco_pose/msg/MarkerArray.msg -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/include/aruco_pose -e /opt/ros/melodic/share/gencpp/cmake/..
 
-devel/include/aruco_pose/ns.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-devel/include/aruco_pose/ns.h: ../aruco_pose/srv/ns.srv
-devel/include/aruco_pose/ns.h: /opt/ros/melodic/share/gencpp/msg.h.template
-devel/include/aruco_pose/ns.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from aruco_pose/ns.srv"
-	cd /home/enping/boids/src/aruco_pose && /home/enping/boids/src/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/enping/boids/src/aruco_pose/srv/ns.srv -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/include/aruco_pose -e /opt/ros/melodic/share/gencpp/cmake/..
-
-devel/include/aruco_pose/cup.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-devel/include/aruco_pose/cup.h: ../aruco_pose/srv/cup.srv
-devel/include/aruco_pose/cup.h: /opt/ros/melodic/share/gencpp/msg.h.template
-devel/include/aruco_pose/cup.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from aruco_pose/cup.srv"
-	cd /home/enping/boids/src/aruco_pose && /home/enping/boids/src/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/enping/boids/src/aruco_pose/srv/cup.srv -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/include/aruco_pose -e /opt/ros/melodic/share/gencpp/cmake/..
+devel/include/aruco_pose/position.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+devel/include/aruco_pose/position.h: ../aruco_pose/msg/position.msg
+devel/include/aruco_pose/position.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from aruco_pose/position.msg"
+	cd /home/enping/boids/src/aruco_pose && /home/enping/boids/src/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/enping/boids/src/aruco_pose/msg/position.msg -Iaruco_pose:/home/enping/boids/src/aruco_pose/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p aruco_pose -o /home/enping/boids/src/build/devel/include/aruco_pose -e /opt/ros/melodic/share/gencpp/cmake/..
 
 aruco_pose_generate_messages_cpp: aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp
 aruco_pose_generate_messages_cpp: devel/include/aruco_pose/Marker.h
 aruco_pose_generate_messages_cpp: devel/include/aruco_pose/Point2D.h
 aruco_pose_generate_messages_cpp: devel/include/aruco_pose/MarkerArray.h
-aruco_pose_generate_messages_cpp: devel/include/aruco_pose/ns.h
-aruco_pose_generate_messages_cpp: devel/include/aruco_pose/cup.h
+aruco_pose_generate_messages_cpp: devel/include/aruco_pose/position.h
 aruco_pose_generate_messages_cpp: aruco_pose/CMakeFiles/aruco_pose_generate_messages_cpp.dir/build.make
 
 .PHONY : aruco_pose_generate_messages_cpp

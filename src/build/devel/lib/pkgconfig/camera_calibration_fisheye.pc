@@ -1,0 +1,8 @@
+prefix=/home/enping/boids/src/build/devel
+
+Name: camera_calibration_fisheye
+Description: Description of camera_calibration_fisheye
+Version: 1.12.23
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

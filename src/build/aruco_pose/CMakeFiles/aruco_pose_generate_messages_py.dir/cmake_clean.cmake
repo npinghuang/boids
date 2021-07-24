@@ -3,8 +3,7 @@ file(REMOVE_RECURSE
   "../devel/lib/python2.7/dist-packages/aruco_pose/msg/_Marker.py"
   "../devel/lib/python2.7/dist-packages/aruco_pose/msg/_Point2D.py"
   "../devel/lib/python2.7/dist-packages/aruco_pose/msg/_MarkerArray.py"
-  "../devel/lib/python2.7/dist-packages/aruco_pose/srv/_ns.py"
-  "../devel/lib/python2.7/dist-packages/aruco_pose/srv/_cup.py"
+  "../devel/lib/python2.7/dist-packages/aruco_pose/msg/_position.py"
   "../devel/lib/python2.7/dist-packages/aruco_pose/msg/__init__.py"
   "../devel/lib/python2.7/dist-packages/aruco_pose/srv/__init__.py"
 )

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/home/enping/boids/src/aruco_pose/msg/Marker.msg;/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg"
-services_str = "/home/enping/boids/src/aruco_pose/srv/cup.srv;/home/enping/boids/src/aruco_pose/srv/ns.srv"
+messages_str = "/home/enping/boids/src/aruco_pose/msg/Point2D.msg;/home/enping/boids/src/aruco_pose/msg/Marker.msg;/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg;/home/enping/boids/src/aruco_pose/msg/position.msg"
+services_str = ""
 pkg_name = "aruco_pose"
 dependencies_str = "std_msgs;geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

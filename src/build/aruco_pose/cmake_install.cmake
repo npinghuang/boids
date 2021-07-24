@@ -42,13 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/enping/boids/src/aruco_pose/msg/Point2D.msg"
     "/home/enping/boids/src/aruco_pose/msg/Marker.msg"
     "/home/enping/boids/src/aruco_pose/msg/MarkerArray.msg"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_pose/srv" TYPE FILE FILES
-    "/home/enping/boids/src/aruco_pose/srv/cup.srv"
-    "/home/enping/boids/src/aruco_pose/srv/ns.srv"
+    "/home/enping/boids/src/aruco_pose/msg/position.msg"
     )
 endif()
 

@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/enping/Eurobot_2021/devel/lib;/opt/ros/melodic/lib")
+set(ORDERED_PATHS "/home/enping/catkin_ws/devel/lib;/opt/ros/melodic/lib")

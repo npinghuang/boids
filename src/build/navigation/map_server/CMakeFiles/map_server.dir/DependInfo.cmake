@@ -20,9 +20,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../navigation/map_server/include"
   "/usr/include/bullet"
-  "/home/enping/Eurobot_2021/devel/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2/include"
-  "/home/enping/Eurobot_2021/src/geometry2/tf2_msgs/include"
+  "/home/enping/catkin_ws/devel/include"
+  "/home/enping/catkin_ws/src/geometry2/tf2/include"
+  "/home/enping/catkin_ws/src/geometry2/tf2_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/SDL"
