@@ -8,6 +8,8 @@
  
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2/LinearMath/Matrix3x3.h>
+#include <tf2/LinearMath/Transform.h>
+#include <tf2_ros/transform_broadcaster.h>
 using namespace std;
 
 ros::Subscriber aruco_array;
@@ -34,6 +36,41 @@ std::vector<float>  quaternion_to_theta(std::vector<float> &RPY, float x, float 
   // ROS_INFO("RPY %f %f %f ", RPY[0], RPY[1], RPY[2]);
   return RPY;
 }  
+// void PublishTransform(ros::Time stamp, float fX, float fY, float fZ, float fYaw, float fPitch, float fRoll)
+// {
+//     static tf2_ros::TransformBroadcaster tf2Broadcaster;
+//     static tf2::Transform transform; 
+
+//     //from world to vehile;
+//     transform.setOrigin(tf2::Vector3(fX, fY, fZ));
+//     transform.setRotation(tf2::Quaternion(fYaw, fPitch, fRoll));
+//     tf2Broadcaster.sendTransform(tf2::StampedTransform(transform, stamp, "/world", "/vehicle"));
+
+//     //from vehile to lms1;
+//     transform.setOrigin(tf2::Vector3(1.26, 0.485, 2.196));
+//     //transform.setRotation(tf2::Quaternion(0.0125+0.0026+0.0034, 0.183011, 0.0+0.0017*7));//roll, pitch, yaw
+//     transform.setRotation(tf2::Quaternion(0.0, 0.183, 0.0));//roll, pitch, yaw
+//     tf2Broadcaster.sendTransform(tf2::StampedTransform(transform, stamp, "/vehicle", "/lms1"));
+
+//     //from vehicle to lms2;
+//     transform.setOrigin(tf2::Vector3(1.26, -0.467, 2.208));
+//     //transform.setRotation(tf2::Quaternion(0.0125003, 0.142386, 6.27694+0.0017*5));
+//     transform.setRotation(tf2::Quaternion(0.0, 0.142386, 0.0));
+//     tf2Broadcaster.sendTransform(tf2::StampedTransform(transform, stamp, "/vehicle", "/lms2"));
+
+//     //from vehicle to velodyne1;
+//     transform.setOrigin(tf2::Vector3(1.147, 0.477, 2.405));
+//     //transform.setRotation(tf2::Quaternion(0.0, 0.0017, 0.0));  //yaw, pitch, roll
+//     transform.setRotation(tf2::Quaternion(0.0, 0.0, 0.0));  //yaw, pitch, roll
+//     tf2Broadcaster.sendTransform(tf2::StampedTransform(transform, stamp, "/vehicle", "/velodyne1"));
+
+//     //from vehicle to velodyne2;
+//     transform.setOrigin(tf2::Vector3(1.152, -0.445,2.45));
+//     //transform.setRotation(tf2::Quaternion(6.28006,0.000175, 0.0));
+//     transform.setRotation(tf2::Quaternion(0.0, 0.0, 0.0));
+//     tf2Broadcaster.sendTransform(tf2::StampedTransform(transform, stamp, "/vehicle", "/velodyne2"));
+
+// }
 geometry_msgs::Point pose_transform_all( geometry_msgs::Point pose){
   //to use porportion to adjust error in length
   float p_1 = 4.8;
@@ -56,10 +93,17 @@ geometry_msgs::Point pose_transform_all( geometry_msgs::Point pose){
   // else if (pose.z > 10){
   //   pose.z = pose.z * p_2; 
   // }
-  pose.x = pose.x * 10; 
-  pose.y = pose.y * 10; 
-  pose.z = pose.z * 10; 
+  pose.x = pose.x / 10; 
+  pose.y = pose.y / 10; 
+  pose.z = pose.z /10; 
+  // static tf2::Transform transform; 
 
+ // 根据 欧拉角设置
+//  tf2::Quaternion q;
+//   q.setRPY(0, 0, 0);
+//   transform.setRotation(q);
+// //  // 根据四元数设置
+//   transform.setRotation( tf2::Quaternion(0, 0, 0, 1) );
 
   return pose;
 }

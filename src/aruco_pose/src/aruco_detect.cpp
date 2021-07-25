@@ -150,8 +150,8 @@ public:
 
 		NODELET_INFO("ready");
 
-		image_sub_.subscribe(nh_, "image_raw", 1);
-		info_sub_.subscribe(nh_, "camera_info", 1);
+		image_sub_.subscribe(nh_, "usb_cam/image_rect", 1);
+		info_sub_.subscribe(nh_, "usb_cam/camera_info", 1);
 
 		sync_.reset(new message_filters::Synchronizer<SyncPolicy>(SyncPolicy(10), image_sub_, info_sub_));
 		sync_->registerCallback(boost::bind(&ArucoDetect::imageCallback, this, _1, _2));
