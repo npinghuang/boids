@@ -98,7 +98,7 @@ devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/liborocos-kd
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libtf.so
+devel/lib/clear_costmap_recovery/clear_tester: devel/lib/libtf.so
 devel/lib/clear_costmap_recovery/clear_tester: devel/lib/libvoxel_grid.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/libPocoFoundation.so
@@ -108,7 +108,7 @@ devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/librospack.s
 devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-devel/lib/clear_costmap_recovery/clear_tester: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/clear_costmap_recovery/clear_tester: devel/lib/libtf2_ros.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libroscpp.so
@@ -119,7 +119,8 @@ devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/librosconsol
 devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/clear_costmap_recovery/clear_tester: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/clear_costmap_recovery/clear_tester: devel/lib/libtf2.so
+devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/librostime.so
 devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/melodic/lib/libcpp_common.so

@@ -158,10 +158,10 @@ devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libcv_bridge.so
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libtf.so
+devel/lib/libaruco_pose.so: devel/lib/libtf.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/libaruco_pose.so: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/libaruco_pose.so: devel/lib/libtf2_ros.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libroscpp.so
@@ -172,7 +172,7 @@ devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/librosconsole_backend_interface
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/libaruco_pose.so: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/libaruco_pose.so: devel/lib/libtf2.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/libaruco_pose.so: /opt/ros/melodic/lib/librostime.so
@@ -186,6 +186,7 @@ devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libaruco_pose.so: devel/lib/lib_opencv_aruco.a
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
 devel/lib/libaruco_pose.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0

@@ -94,7 +94,7 @@ devel/lib/costmap_2d/costmap_tester: devel/lib/libcostmap_2d.so
 devel/lib/costmap_2d/costmap_tester: gtest/googlemock/gtest/libgtest.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/libtf.so
+devel/lib/costmap_2d/costmap_tester: devel/lib/libtf.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/costmap_2d/costmap_tester: /usr/lib/libPocoFoundation.so
 devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libdl.so
@@ -105,10 +105,11 @@ devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libboost_program_
 devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/costmap_2d/costmap_tester: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/costmap_2d/costmap_tester: devel/lib/libtf2_ros.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/libmessage_filters.so
-devel/lib/costmap_2d/costmap_tester: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/costmap_2d/costmap_tester: devel/lib/libtf2.so
+devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/costmap_2d/costmap_tester: devel/lib/libvoxel_grid.so
 devel/lib/costmap_2d/costmap_tester: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/costmap_2d/costmap_tester: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

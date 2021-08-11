@@ -130,14 +130,14 @@ devel/lib/aruco_ros/double: /opt/ros/melodic/lib/librospack.so
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-devel/lib/aruco_ros/double: /opt/ros/melodic/lib/libtf.so
-devel/lib/aruco_ros/double: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/aruco_ros/double: devel/lib/libtf.so
+devel/lib/aruco_ros/double: devel/lib/libtf2_ros.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/aruco_ros/double: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/aruco_ros/double: devel/lib/libtf2.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/librosconsole.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 devel/lib/aruco_ros/double: /opt/ros/melodic/lib/librosconsole_backend_interface.so
@@ -180,6 +180,7 @@ devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
 devel/lib/aruco_ros/double: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0

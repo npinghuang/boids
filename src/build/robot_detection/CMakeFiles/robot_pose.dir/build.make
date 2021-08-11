@@ -90,6 +90,17 @@ robot_pose_EXTERNAL_OBJECTS =
 
 devel/lib/robot_detection/robot_pose: robot_detection/CMakeFiles/robot_pose.dir/src/robot_pose.cpp.o
 devel/lib/robot_detection/robot_pose: robot_detection/CMakeFiles/robot_pose.dir/build.make
+devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/libnodeletlib.so
+devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/libbondcpp.so
+devel/lib/robot_detection/robot_pose: /usr/lib/x86_64-linux-gnu/libuuid.so
+devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/libclass_loader.so
+devel/lib/robot_detection/robot_pose: /usr/lib/libPocoFoundation.so
+devel/lib/robot_detection/robot_pose: /usr/lib/x86_64-linux-gnu/libdl.so
+devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/libroslib.so
+devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/librospack.so
+devel/lib/robot_detection/robot_pose: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+devel/lib/robot_detection/robot_pose: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+devel/lib/robot_detection/robot_pose: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/robot_detection/robot_pose: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 devel/lib/robot_detection/robot_pose: /opt/ros/melodic/lib/librosconsole.so

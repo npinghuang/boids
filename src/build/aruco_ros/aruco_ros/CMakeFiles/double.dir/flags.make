@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"aruco_ros\"
 
-CXX_INCLUDES = -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /home/enping/catkin_ws/devel/include -isystem /home/enping/catkin_ws/src/geometry2/tf2_ros/include -isystem /home/enping/catkin_ws/src/geometry2/tf2/include -isystem /home/enping/catkin_ws/src/geometry2/tf2_msgs/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv 
+CXX_INCLUDES = -isystem /home/enping/boids/src/build/devel/include -I/home/enping/boids/src/aruco_ros/aruco_ros/include -isystem /home/enping/boids/src/geometry/tf/include -isystem /home/enping/boids/src/geometry2/tf2_ros/include -isystem /home/enping/boids/src/geometry2/tf2/include -isystem /home/enping/boids/src/geometry2/tf2_msgs/include -isystem /home/enping/boids/src/aruco_ros/aruco/include -isystem /opt/ros/melodic/include -isystem /opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv 
 

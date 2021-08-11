@@ -124,7 +124,7 @@ devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libtf.so
+devel/lib/navfn/path_calc_test: devel/lib/libtf.so
 devel/lib/navfn/path_calc_test: devel/lib/libvoxel_grid.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/navfn/path_calc_test: /usr/lib/libPocoFoundation.so
@@ -134,7 +134,7 @@ devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/librospack.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-devel/lib/navfn/path_calc_test: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/navfn/path_calc_test: devel/lib/libtf2_ros.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libroscpp.so
@@ -145,7 +145,8 @@ devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/librosconsole_backend_inter
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/navfn/path_calc_test: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/navfn/path_calc_test: devel/lib/libtf2.so
+devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/librostime.so
 devel/lib/navfn/path_calc_test: /opt/ros/melodic/lib/libcpp_common.so

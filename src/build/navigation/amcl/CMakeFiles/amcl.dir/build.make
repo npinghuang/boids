@@ -110,7 +110,7 @@ devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/liblz4.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libtopic_tools.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/amcl/amcl: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/amcl/amcl: devel/lib/libtf2_ros.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libroscpp.so
@@ -121,7 +121,7 @@ devel/lib/amcl/amcl: /opt/ros/melodic/lib/librosconsole_backend_interface.so
 devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/amcl/amcl: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/amcl/amcl: devel/lib/libtf2.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/librostime.so
 devel/lib/amcl/amcl: /opt/ros/melodic/lib/libcpp_common.so
@@ -131,6 +131,7 @@ devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/amcl/amcl: navigation/amcl/CMakeFiles/amcl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../devel/lib/amcl/amcl"

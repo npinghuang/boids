@@ -104,14 +104,14 @@ devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/librospack.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/libtf.so
-devel/lib/libaruco_ros_utils.so: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/libaruco_ros_utils.so: devel/lib/libtf.so
+devel/lib/libaruco_ros_utils.so: devel/lib/libtf2_ros.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/libaruco_ros_utils.so: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/libaruco_ros_utils.so: devel/lib/libtf2.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/librosconsole.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 devel/lib/libaruco_ros_utils.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
@@ -127,6 +127,7 @@ devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
 devel/lib/libaruco_ros_utils.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0

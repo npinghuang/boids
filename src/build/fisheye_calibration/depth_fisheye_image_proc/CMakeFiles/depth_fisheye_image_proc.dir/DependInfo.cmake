@@ -18,10 +18,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../fisheye_calibration/depth_fisheye_image_proc/include"
-  "/home/enping/catkin_ws/devel/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_msgs/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_ros/include"
+  "devel/include"
+  "../geometry/eigen_conversions/include"
+  "../geometry2/tf2/include"
+  "../geometry2/tf2_msgs/include"
+  "../geometry2/tf2_ros/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
@@ -31,6 +32,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/enping/boids/src/build/geometry/eigen_conversions/CMakeFiles/eigen_conversions.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry2/tf2_ros/CMakeFiles/tf2_ros.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry2/tf2/CMakeFiles/tf2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

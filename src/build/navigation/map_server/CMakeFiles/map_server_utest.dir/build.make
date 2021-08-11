@@ -133,7 +133,11 @@ devel/lib/map_server/map_server_utest: /opt/ros/melodic/lib/librosconsole_backen
 devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/map_server/map_server_utest: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/map_server/map_server_utest: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDLmain.a
+devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDL.so
+devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDL_image.so
+devel/lib/map_server/map_server_utest: devel/lib/libtf2.so
+devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/map_server/map_server_utest: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/map_server/map_server_utest: /opt/ros/melodic/lib/librostime.so
 devel/lib/map_server/map_server_utest: /opt/ros/melodic/lib/libcpp_common.so
@@ -144,9 +148,6 @@ devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libboost_date_t
 devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDLmain.a
-devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDL.so
-devel/lib/map_server/map_server_utest: /usr/lib/x86_64-linux-gnu/libSDL_image.so
 devel/lib/map_server/map_server_utest: navigation/map_server/CMakeFiles/map_server_utest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../devel/lib/map_server/map_server_utest"
 	cd /home/enping/boids/src/build/navigation/map_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/map_server_utest.dir/link.txt --verbose=$(VERBOSE)

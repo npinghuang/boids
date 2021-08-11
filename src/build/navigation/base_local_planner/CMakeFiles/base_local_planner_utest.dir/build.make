@@ -227,7 +227,7 @@ devel/lib/base_local_planner/base_local_planner_utest: devel/lib/liblayers.so
 devel/lib/base_local_planner/base_local_planner_utest: devel/lib/libcostmap_2d.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/libtf.so
+devel/lib/base_local_planner/base_local_planner_utest: devel/lib/libtf.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/libPocoFoundation.so
 devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libdl.so
@@ -238,10 +238,11 @@ devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu
 devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/base_local_planner/base_local_planner_utest: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/base_local_planner/base_local_planner_utest: devel/lib/libtf2_ros.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/libmessage_filters.so
-devel/lib/base_local_planner/base_local_planner_utest: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/base_local_planner/base_local_planner_utest: devel/lib/libtf2.so
+devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/base_local_planner/base_local_planner_utest: devel/lib/libvoxel_grid.so
 devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

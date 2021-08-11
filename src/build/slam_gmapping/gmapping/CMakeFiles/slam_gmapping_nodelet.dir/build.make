@@ -121,13 +121,13 @@ devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libbondcpp.so
 devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 devel/lib/libslam_gmapping_nodelet.so: devel/lib/libconfigfile.so
 devel/lib/libslam_gmapping_nodelet.so: devel/lib/libgridfastslam.so
-devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libtf.so
-devel/lib/libslam_gmapping_nodelet.so: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/libslam_gmapping_nodelet.so: devel/lib/libtf.so
+devel/lib/libslam_gmapping_nodelet.so: devel/lib/libtf2_ros.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/libslam_gmapping_nodelet.so: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/libslam_gmapping_nodelet.so: devel/lib/libtf2.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/librosbag_storage.so
 devel/lib/libslam_gmapping_nodelet.so: /opt/ros/melodic/lib/libclass_loader.so
@@ -161,6 +161,7 @@ devel/lib/libslam_gmapping_nodelet.so: devel/lib/liblog.so
 devel/lib/libslam_gmapping_nodelet.so: devel/lib/libsensor_odometry.so
 devel/lib/libslam_gmapping_nodelet.so: devel/lib/libsensor_range.so
 devel/lib/libslam_gmapping_nodelet.so: devel/lib/libsensor_base.so
+devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../devel/lib/libslam_gmapping_nodelet.so"
 	cd /home/enping/boids/src/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_gmapping_nodelet.dir/link.txt --verbose=$(VERBOSE)

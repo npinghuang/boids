@@ -92,7 +92,7 @@ devel/lib/fake_localization/fake_localization: navigation/fake_localization/CMak
 devel/lib/fake_localization/fake_localization: navigation/fake_localization/CMakeFiles/fake_localization.dir/build.make
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/fake_localization/fake_localization: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/fake_localization/fake_localization: devel/lib/libtf2_ros.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/libroscpp.so
@@ -103,7 +103,7 @@ devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/librosconsol
 devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/fake_localization/fake_localization: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/fake_localization/fake_localization: devel/lib/libtf2.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/librostime.so
 devel/lib/fake_localization/fake_localization: /opt/ros/melodic/lib/libcpp_common.so
@@ -113,6 +113,7 @@ devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libboos
 devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/fake_localization/fake_localization: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/fake_localization/fake_localization: navigation/fake_localization/CMakeFiles/fake_localization.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../devel/lib/fake_localization/fake_localization"

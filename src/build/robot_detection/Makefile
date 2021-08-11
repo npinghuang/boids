@@ -68,17 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -101,6 +90,17 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -113,17 +113,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -134,6 +123,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,19 +168,304 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule
-.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule
+robot_detection/CMakeFiles/robot_velocity.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_velocity.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_velocity.dir/rule
 
 # Convenience name for target.
-_robot_detection_generate_messages_check_deps_RobotArray: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule
+robot_velocity: robot_detection/CMakeFiles/robot_velocity.dir/rule
 
-.PHONY : _robot_detection_generate_messages_check_deps_RobotArray
+.PHONY : robot_velocity
 
 # fast build rule for target.
-_robot_detection_generate_messages_check_deps_RobotArray/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/build
-.PHONY : _robot_detection_generate_messages_check_deps_RobotArray/fast
+robot_velocity/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_velocity.dir/build.make robot_detection/CMakeFiles/robot_velocity.dir/build
+.PHONY : robot_velocity/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/robot_pose.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_pose.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_pose.dir/rule
+
+# Convenience name for target.
+robot_pose: robot_detection/CMakeFiles/robot_pose.dir/rule
+
+.PHONY : robot_pose
+
+# fast build rule for target.
+robot_pose/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_pose.dir/build.make robot_detection/CMakeFiles/robot_pose.dir/build
+.PHONY : robot_pose/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/robot_detection_genpy.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_genpy.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_detection_genpy.dir/rule
+
+# Convenience name for target.
+robot_detection_genpy: robot_detection/CMakeFiles/robot_detection_genpy.dir/rule
+
+.PHONY : robot_detection_genpy
+
+# fast build rule for target.
+robot_detection_genpy/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_genpy.dir/build.make robot_detection/CMakeFiles/robot_detection_genpy.dir/build
+.PHONY : robot_detection_genpy/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule
+
+# Convenience name for target.
+robot_detection_generate_messages_py: robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule
+
+.PHONY : robot_detection_generate_messages_py
+
+# fast build rule for target.
+robot_detection_generate_messages_py/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/build.make robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/build
+.PHONY : robot_detection_generate_messages_py/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/bond_generate_messages_cpp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/bond_generate_messages_cpp.dir/rule
+.PHONY : robot_detection/CMakeFiles/bond_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_cpp: robot_detection/CMakeFiles/bond_generate_messages_cpp.dir/rule
+
+.PHONY : bond_generate_messages_cpp
+
+# fast build rule for target.
+bond_generate_messages_cpp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/bond_generate_messages_cpp.dir/build.make robot_detection/CMakeFiles/bond_generate_messages_cpp.dir/build
+.PHONY : bond_generate_messages_cpp/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule
+.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule
+
+# Convenience name for target.
+_robot_detection_generate_messages_check_deps_Robot_Velocity: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule
+
+.PHONY : _robot_detection_generate_messages_check_deps_Robot_Velocity
+
+# fast build rule for target.
+_robot_detection_generate_messages_check_deps_Robot_Velocity/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/build
+.PHONY : _robot_detection_generate_messages_check_deps_Robot_Velocity/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+.PHONY : robot_detection/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_nodejs: robot_detection/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+
+.PHONY : bond_generate_messages_nodejs
+
+# fast build rule for target.
+bond_generate_messages_nodejs/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/bond_generate_messages_nodejs.dir/build.make robot_detection/CMakeFiles/bond_generate_messages_nodejs.dir/build
+.PHONY : bond_generate_messages_nodejs/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/nodelet_generate_messages_py.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/nodelet_generate_messages_py.dir/rule
+.PHONY : robot_detection/CMakeFiles/nodelet_generate_messages_py.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_py: robot_detection/CMakeFiles/nodelet_generate_messages_py.dir/rule
+
+.PHONY : nodelet_generate_messages_py
+
+# fast build rule for target.
+nodelet_generate_messages_py/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/nodelet_generate_messages_py.dir/build.make robot_detection/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# fast build rule for target.
+roscpp_generate_messages_nodejs/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+.PHONY : roscpp_generate_messages_nodejs/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule
+.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule
+
+# Convenience name for target.
+_robot_detection_generate_messages_check_deps_Marker: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule
+
+.PHONY : _robot_detection_generate_messages_check_deps_Marker
+
+# fast build rule for target.
+_robot_detection_generate_messages_check_deps_Marker/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/build
+.PHONY : _robot_detection_generate_messages_check_deps_Marker/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/bond_generate_messages_lisp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/bond_generate_messages_lisp.dir/rule
+.PHONY : robot_detection/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_lisp: robot_detection/CMakeFiles/bond_generate_messages_lisp.dir/rule
+
+.PHONY : bond_generate_messages_lisp
+
+# fast build rule for target.
+bond_generate_messages_lisp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/bond_generate_messages_lisp.dir/build.make robot_detection/CMakeFiles/bond_generate_messages_lisp.dir/build
+.PHONY : bond_generate_messages_lisp/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+.PHONY : robot_detection/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_cpp: robot_detection/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+
+.PHONY : nodelet_generate_messages_cpp
+
+# fast build rule for target.
+nodelet_generate_messages_cpp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make robot_detection/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+.PHONY : nodelet_generate_messages_cpp/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/bond_generate_messages_py.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/bond_generate_messages_py.dir/rule
+.PHONY : robot_detection/CMakeFiles/bond_generate_messages_py.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_py: robot_detection/CMakeFiles/bond_generate_messages_py.dir/rule
+
+.PHONY : bond_generate_messages_py
+
+# fast build rule for target.
+bond_generate_messages_py/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/bond_generate_messages_py.dir/build.make robot_detection/CMakeFiles/bond_generate_messages_py.dir/build
+.PHONY : bond_generate_messages_py/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+robot_detection_generate_messages_eus: robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule
+
+.PHONY : robot_detection_generate_messages_eus
+
+# fast build rule for target.
+robot_detection_generate_messages_eus/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/build.make robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/build
+.PHONY : robot_detection_generate_messages_eus/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/robot_detection_geneus.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_geneus.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_detection_geneus.dir/rule
+
+# Convenience name for target.
+robot_detection_geneus: robot_detection/CMakeFiles/robot_detection_geneus.dir/rule
+
+.PHONY : robot_detection_geneus
+
+# fast build rule for target.
+robot_detection_geneus/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_geneus.dir/build.make robot_detection/CMakeFiles/robot_detection_geneus.dir/build
+.PHONY : robot_detection_geneus/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+.PHONY : robot_detection/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+nodelet_generate_messages_eus: robot_detection/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+
+.PHONY : nodelet_generate_messages_eus
+
+# fast build rule for target.
+nodelet_generate_messages_eus/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/nodelet_generate_messages_eus.dir/build.make robot_detection/CMakeFiles/nodelet_generate_messages_eus.dir/build
+.PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity_Array.dir/rule:
@@ -198,19 +483,34 @@ _robot_detection_generate_messages_check_deps_Robot_Velocity_Array/fast:
 .PHONY : _robot_detection_generate_messages_check_deps_Robot_Velocity_Array/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule
+robot_detection/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+.PHONY : robot_detection/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-robot_detection_generate_messages: robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule
+nodelet_generate_messages_nodejs: robot_detection/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
-.PHONY : robot_detection_generate_messages
+.PHONY : nodelet_generate_messages_nodejs
 
 # fast build rule for target.
-robot_detection_generate_messages/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_generate_messages.dir/build.make robot_detection/CMakeFiles/robot_detection_generate_messages.dir/build
-.PHONY : robot_detection_generate_messages/fast
+nodelet_generate_messages_nodejs/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make robot_detection/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+.PHONY : nodelet_generate_messages_nodejs/fast
+
+# Convenience name for target.
+robot_detection/CMakeFiles/bond_generate_messages_eus.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/bond_generate_messages_eus.dir/rule
+.PHONY : robot_detection/CMakeFiles/bond_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+bond_generate_messages_eus: robot_detection/CMakeFiles/bond_generate_messages_eus.dir/rule
+
+.PHONY : bond_generate_messages_eus
+
+# fast build rule for target.
+bond_generate_messages_eus/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/bond_generate_messages_eus.dir/build.make robot_detection/CMakeFiles/bond_generate_messages_eus.dir/build
+.PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 robot_detection/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
@@ -228,64 +528,49 @@ roscpp_generate_messages_lisp/fast:
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule
+.PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+robot_detection_generate_messages: robot_detection/CMakeFiles/robot_detection_generate_messages.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_py
+.PHONY : robot_detection_generate_messages
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
+robot_detection_generate_messages/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_generate_messages.dir/build.make robot_detection/CMakeFiles/robot_detection_generate_messages.dir/build
+.PHONY : robot_detection_generate_messages/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule
+.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+_robot_detection_generate_messages_check_deps_Robot: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_nodejs
+.PHONY : _robot_detection_generate_messages_check_deps_Robot
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+_robot_detection_generate_messages_check_deps_Robot/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/build
+.PHONY : _robot_detection_generate_messages_check_deps_Robot/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule
-.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule
+robot_detection/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+.PHONY : robot_detection/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-_robot_detection_generate_messages_check_deps_MarkerArray: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule
+nodelet_generate_messages_lisp: robot_detection/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
-.PHONY : _robot_detection_generate_messages_check_deps_MarkerArray
+.PHONY : nodelet_generate_messages_lisp
 
 # fast build rule for target.
-_robot_detection_generate_messages_check_deps_MarkerArray/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/build
-.PHONY : _robot_detection_generate_messages_check_deps_MarkerArray/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+nodelet_generate_messages_lisp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make robot_detection/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
@@ -318,124 +603,79 @@ robot_detection_generate_messages_nodejs/fast:
 .PHONY : robot_detection_generate_messages_nodejs/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_lisp: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_lisp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule
-.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule
+robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-_robot_detection_generate_messages_check_deps_Robot: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/rule
+rosgraph_msgs_generate_messages_nodejs: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : _robot_detection_generate_messages_check_deps_Robot
+.PHONY : rosgraph_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-_robot_detection_generate_messages_check_deps_Robot/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot.dir/build
-.PHONY : _robot_detection_generate_messages_check_deps_Robot/fast
+rosgraph_msgs_generate_messages_nodejs/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule
-.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule
+robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-_robot_detection_generate_messages_check_deps_Marker: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/rule
+rosgraph_msgs_generate_messages_py: robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
-.PHONY : _robot_detection_generate_messages_check_deps_Marker
+.PHONY : rosgraph_msgs_generate_messages_py
 
 # fast build rule for target.
-_robot_detection_generate_messages_check_deps_Marker/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Marker.dir/build
-.PHONY : _robot_detection_generate_messages_check_deps_Marker/fast
+rosgraph_msgs_generate_messages_py/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make robot_detection/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule
+.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_eus: robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+_robot_detection_generate_messages_check_deps_MarkerArray: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/rule
 
-.PHONY : roscpp_generate_messages_eus
+.PHONY : _robot_detection_generate_messages_check_deps_MarkerArray
 
 # fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
+_robot_detection_generate_messages_check_deps_MarkerArray/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_MarkerArray.dir/build
+.PHONY : _robot_detection_generate_messages_check_deps_MarkerArray/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule
+.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+_robot_detection_generate_messages_check_deps_RobotArray: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/rule
 
-.PHONY : roscpp_generate_messages_nodejs
+.PHONY : _robot_detection_generate_messages_check_deps_RobotArray
 
 # fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/robot_pose.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_pose.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_pose.dir/rule
-
-# Convenience name for target.
-robot_pose: robot_detection/CMakeFiles/robot_pose.dir/rule
-
-.PHONY : robot_pose
-
-# fast build rule for target.
-robot_pose/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_pose.dir/build.make robot_detection/CMakeFiles/robot_pose.dir/build
-.PHONY : robot_pose/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule
-.PHONY : robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule
-
-# Convenience name for target.
-_robot_detection_generate_messages_check_deps_Robot_Velocity: robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/rule
-
-.PHONY : _robot_detection_generate_messages_check_deps_Robot_Velocity
-
-# fast build rule for target.
-_robot_detection_generate_messages_check_deps_Robot_Velocity/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Robot_Velocity.dir/build
-.PHONY : _robot_detection_generate_messages_check_deps_Robot_Velocity/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
+_robot_detection_generate_messages_check_deps_RobotArray/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/build.make robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_RobotArray.dir/build
+.PHONY : _robot_detection_generate_messages_check_deps_RobotArray/fast
 
 # Convenience name for target.
 robot_detection/CMakeFiles/_robot_detection_generate_messages_check_deps_Point2D.dir/rule:
@@ -483,21 +723,6 @@ robot_detection_gencpp/fast:
 .PHONY : robot_detection_gencpp/fast
 
 # Convenience name for target.
-robot_detection/CMakeFiles/robot_detection_geneus.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_geneus.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_detection_geneus.dir/rule
-
-# Convenience name for target.
-robot_detection_geneus: robot_detection/CMakeFiles/robot_detection_geneus.dir/rule
-
-.PHONY : robot_detection_geneus
-
-# fast build rule for target.
-robot_detection_geneus/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_geneus.dir/build.make robot_detection/CMakeFiles/robot_detection_geneus.dir/build
-.PHONY : robot_detection_geneus/fast
-
-# Convenience name for target.
 robot_detection/CMakeFiles/robot_detection_generate_messages_lisp.dir/rule:
 	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages_lisp.dir/rule
 .PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages_lisp.dir/rule
@@ -541,81 +766,6 @@ robot_detection_gennodejs: robot_detection/CMakeFiles/robot_detection_gennodejs.
 robot_detection_gennodejs/fast:
 	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_gennodejs.dir/build.make robot_detection/CMakeFiles/robot_detection_gennodejs.dir/build
 .PHONY : robot_detection_gennodejs/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/robot_detection_genpy.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_genpy.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_detection_genpy.dir/rule
-
-# Convenience name for target.
-robot_detection_genpy: robot_detection/CMakeFiles/robot_detection_genpy.dir/rule
-
-.PHONY : robot_detection_genpy
-
-# fast build rule for target.
-robot_detection_genpy/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_genpy.dir/build.make robot_detection/CMakeFiles/robot_detection_genpy.dir/build
-.PHONY : robot_detection_genpy/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule
-
-# Convenience name for target.
-robot_detection_generate_messages_py: robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/rule
-
-.PHONY : robot_detection_generate_messages_py
-
-# fast build rule for target.
-robot_detection_generate_messages_py/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/build.make robot_detection/CMakeFiles/robot_detection_generate_messages_py.dir/build
-.PHONY : robot_detection_generate_messages_py/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/robot_velocity.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_velocity.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_velocity.dir/rule
-
-# Convenience name for target.
-robot_velocity: robot_detection/CMakeFiles/robot_velocity.dir/rule
-
-.PHONY : robot_velocity
-
-# fast build rule for target.
-robot_velocity/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_velocity.dir/build.make robot_detection/CMakeFiles/robot_velocity.dir/build
-.PHONY : robot_velocity/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule
-.PHONY : robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-robot_detection_generate_messages_eus: robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/rule
-
-.PHONY : robot_detection_generate_messages_eus
-
-# fast build rule for target.
-robot_detection_generate_messages_eus/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/build.make robot_detection/CMakeFiles/robot_detection_generate_messages_eus.dir/build
-.PHONY : robot_detection_generate_messages_eus/fast
-
-# Convenience name for target.
-robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make robot_detection/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
 
 src/robot_pose.o: src/robot_pose.cpp.o
 
@@ -678,42 +828,52 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... _robot_detection_generate_messages_check_deps_RobotArray"
-	@echo "... _robot_detection_generate_messages_check_deps_Robot_Velocity_Array"
-	@echo "... robot_detection_generate_messages"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... edit_cache"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... _robot_detection_generate_messages_check_deps_MarkerArray"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... robot_detection_generate_messages_nodejs"
 	@echo "... install"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... _robot_detection_generate_messages_check_deps_Robot"
-	@echo "... _robot_detection_generate_messages_check_deps_Marker"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... list_install_components"
+	@echo "... edit_cache"
+	@echo "... robot_velocity"
 	@echo "... robot_pose"
+	@echo "... robot_detection_genpy"
+	@echo "... install/local"
+	@echo "... robot_detection_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... bond_generate_messages_cpp"
 	@echo "... _robot_detection_generate_messages_check_deps_Robot_Velocity"
 	@echo "... roscpp_generate_messages_py"
-	@echo "... list_install_components"
+	@echo "... bond_generate_messages_nodejs"
+	@echo "... nodelet_generate_messages_py"
+	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... _robot_detection_generate_messages_check_deps_Marker"
+	@echo "... bond_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_cpp"
+	@echo "... bond_generate_messages_py"
+	@echo "... test"
+	@echo "... robot_detection_generate_messages_eus"
+	@echo "... robot_detection_geneus"
+	@echo "... nodelet_generate_messages_eus"
+	@echo "... _robot_detection_generate_messages_check_deps_Robot_Velocity_Array"
+	@echo "... nodelet_generate_messages_nodejs"
+	@echo "... bond_generate_messages_eus"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... robot_detection_generate_messages"
+	@echo "... _robot_detection_generate_messages_check_deps_Robot"
+	@echo "... nodelet_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... robot_detection_generate_messages_nodejs"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... _robot_detection_generate_messages_check_deps_MarkerArray"
+	@echo "... _robot_detection_generate_messages_check_deps_RobotArray"
 	@echo "... _robot_detection_generate_messages_check_deps_Point2D"
 	@echo "... robot_detection_generate_messages_cpp"
 	@echo "... robot_detection_gencpp"
-	@echo "... robot_detection_geneus"
 	@echo "... robot_detection_generate_messages_lisp"
 	@echo "... robot_detection_genlisp"
 	@echo "... robot_detection_gennodejs"
-	@echo "... robot_detection_genpy"
-	@echo "... robot_detection_generate_messages_py"
-	@echo "... install/local"
-	@echo "... robot_velocity"
-	@echo "... robot_detection_generate_messages_eus"
-	@echo "... test"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... rebuild_cache"
 	@echo "... src/robot_pose.o"
 	@echo "... src/robot_pose.i"
 	@echo "... src/robot_pose.s"

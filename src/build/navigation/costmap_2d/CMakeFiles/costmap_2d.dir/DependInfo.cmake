@@ -28,13 +28,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "devel/include"
   "../navigation/costmap_2d/include"
+  "../geometry/tf/include"
+  "../geometry2/tf2_ros/include"
+  "../geometry2/tf2/include"
+  "../geometry2/tf2_msgs/include"
+  "../geometry2/tf2_geometry_msgs/include"
+  "../geometry2/tf2_sensor_msgs/include"
   "../navigation/voxel_grid/include"
-  "/home/enping/catkin_ws/devel/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_ros/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_msgs/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_geometry_msgs/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_sensor_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/melodic/share/orocos_kdl/cmake/../../../include"
@@ -44,6 +44,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/enping/boids/src/build/geometry/tf/CMakeFiles/tf.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry2/tf2_ros/CMakeFiles/tf2_ros.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry2/tf2/CMakeFiles/tf2.dir/DependInfo.cmake"
   "/home/enping/boids/src/build/navigation/voxel_grid/CMakeFiles/voxel_grid.dir/DependInfo.cmake"
   )
 

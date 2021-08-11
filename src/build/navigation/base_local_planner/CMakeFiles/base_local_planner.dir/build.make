@@ -561,7 +561,6 @@ devel/lib/libbase_local_planner.so: navigation/base_local_planner/CMakeFiles/bas
 devel/lib/libbase_local_planner.so: devel/lib/liblayers.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libtf.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/libbase_local_planner.so: /usr/lib/libPocoFoundation.so
 devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libdl.so
@@ -572,10 +571,8 @@ devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_program_o
 devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/libbase_local_planner.so: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libmessage_filters.so
-devel/lib/libbase_local_planner.so: /home/enping/catkin_ws/devel/lib/libtf2.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/librosconsole.so
@@ -603,7 +600,7 @@ devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/libbase_local_planner.so: devel/lib/libcostmap_2d.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libtf.so
+devel/lib/libbase_local_planner.so: devel/lib/libtf.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/libbase_local_planner.so: /usr/lib/libPocoFoundation.so
 devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libdl.so
@@ -614,10 +611,11 @@ devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_program_o
 devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/libbase_local_planner.so: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/libbase_local_planner.so: devel/lib/libtf2_ros.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libmessage_filters.so
-devel/lib/libbase_local_planner.so: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/libbase_local_planner.so: devel/lib/libtf2.so
+devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libbase_local_planner.so: devel/lib/libvoxel_grid.so
 devel/lib/libbase_local_planner.so: /opt/ros/melodic/lib/libroscpp.so
 devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so

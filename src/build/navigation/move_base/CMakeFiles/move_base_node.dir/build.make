@@ -100,7 +100,7 @@ devel/lib/move_base/move_base: devel/lib/liblayers.so
 devel/lib/move_base/move_base: devel/lib/libcostmap_2d.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/liblaser_geometry.so
-devel/lib/move_base/move_base: /opt/ros/melodic/lib/libtf.so
+devel/lib/move_base/move_base: devel/lib/libtf.so
 devel/lib/move_base/move_base: devel/lib/libvoxel_grid.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libclass_loader.so
 devel/lib/move_base/move_base: /usr/lib/libPocoFoundation.so
@@ -112,7 +112,7 @@ devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libboost_program_option
 devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/liborocos-kdl.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-devel/lib/move_base/move_base: /home/enping/catkin_ws/devel/lib/libtf2_ros.so
+devel/lib/move_base/move_base: devel/lib/libtf2_ros.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libactionlib.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libmessage_filters.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libroscpp.so
@@ -123,7 +123,8 @@ devel/lib/move_base/move_base: /opt/ros/melodic/lib/librosconsole_backend_interf
 devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/move_base/move_base: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/move_base/move_base: devel/lib/libtf2.so
+devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/librostime.so
 devel/lib/move_base/move_base: /opt/ros/melodic/lib/libcpp_common.so

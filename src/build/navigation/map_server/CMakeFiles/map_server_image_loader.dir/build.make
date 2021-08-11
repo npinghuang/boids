@@ -102,7 +102,7 @@ devel/lib/libmap_server_image_loader.so: /opt/ros/melodic/lib/librosconsole_back
 devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/libmap_server_image_loader.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/libmap_server_image_loader.so: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/libmap_server_image_loader.so: devel/lib/libtf2.so
 devel/lib/libmap_server_image_loader.so: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/libmap_server_image_loader.so: /opt/ros/melodic/lib/librostime.so
 devel/lib/libmap_server_image_loader.so: /opt/ros/melodic/lib/libcpp_common.so
@@ -116,6 +116,7 @@ devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/libconsole_br
 devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/libSDLmain.a
 devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/libSDL.so
 devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/libSDL_image.so
+devel/lib/libmap_server_image_loader.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/libmap_server_image_loader.so: navigation/map_server/CMakeFiles/map_server_image_loader.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../devel/lib/libmap_server_image_loader.so"
 	cd /home/enping/boids/src/build/navigation/map_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/map_server_image_loader.dir/link.txt --verbose=$(VERBOSE)

@@ -125,7 +125,7 @@ devel/lib/map_server/rtest: /opt/ros/melodic/lib/librosconsole_backend_interface
 devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 devel/lib/map_server/rtest: /opt/ros/melodic/lib/libxmlrpcpp.so
-devel/lib/map_server/rtest: /home/enping/catkin_ws/devel/lib/libtf2.so
+devel/lib/map_server/rtest: devel/lib/libtf2.so
 devel/lib/map_server/rtest: /opt/ros/melodic/lib/libroscpp_serialization.so
 devel/lib/map_server/rtest: /opt/ros/melodic/lib/librostime.so
 devel/lib/map_server/rtest: /opt/ros/melodic/lib/libcpp_common.so
@@ -135,6 +135,7 @@ devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/map_server/rtest: navigation/map_server/CMakeFiles/rtest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/enping/boids/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../devel/lib/map_server/rtest"

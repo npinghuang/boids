@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/enping/boids/src/build/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/enping/boids/src/build/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/enping/boids/src/build/devel/bin:$PATH"
 export PKG_CONFIG_PATH="/home/enping/boids/src/build/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/enping/boids/src/build'
 export PYTHONPATH="/home/enping/boids/src/build/devel/lib/python2.7/dist-packages:$PYTHONPATH"

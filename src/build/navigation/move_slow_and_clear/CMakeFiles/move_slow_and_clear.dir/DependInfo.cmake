@@ -20,12 +20,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../navigation/move_slow_and_clear/include"
   "devel/include"
   "../navigation/costmap_2d/include"
+  "../geometry/tf/include"
+  "../geometry2/tf2_ros/include"
+  "../geometry2/tf2/include"
+  "../geometry2/tf2_msgs/include"
   "../navigation/voxel_grid/include"
   "../navigation/nav_core/include"
-  "/home/enping/catkin_ws/devel/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_ros/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2/include"
-  "/home/enping/catkin_ws/src/geometry2/tf2_msgs/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -35,6 +35,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/enping/boids/src/build/navigation/costmap_2d/CMakeFiles/layers.dir/DependInfo.cmake"
   "/home/enping/boids/src/build/navigation/costmap_2d/CMakeFiles/costmap_2d.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry/tf/CMakeFiles/tf.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry2/tf2_ros/CMakeFiles/tf2_ros.dir/DependInfo.cmake"
+  "/home/enping/boids/src/build/geometry2/tf2/CMakeFiles/tf2.dir/DependInfo.cmake"
   "/home/enping/boids/src/build/navigation/voxel_grid/CMakeFiles/voxel_grid.dir/DependInfo.cmake"
   )
 

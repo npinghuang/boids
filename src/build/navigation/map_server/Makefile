@@ -56,6 +56,30 @@ CMAKE_BINARY_DIR = /home/enping/boids/src/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -90,18 +114,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -112,18 +124,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -228,19 +228,19 @@ run_tests_map_server_rostest/fast:
 .PHONY : run_tests_map_server_rostest/fast
 
 # Convenience name for target.
-navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule
+navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
 
 # Convenience name for target.
-clean_test_results_map_server: navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule
+map_server_image_loader: navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
 
-.PHONY : clean_test_results_map_server
+.PHONY : map_server_image_loader
 
 # fast build rule for target.
-clean_test_results_map_server/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build.make navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build
-.PHONY : clean_test_results_map_server/fast
+map_server_image_loader/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/map_server_image_loader.dir/build.make navigation/map_server/CMakeFiles/map_server_image_loader.dir/build
+.PHONY : map_server_image_loader/fast
 
 # Convenience name for target.
 navigation/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/rule:
@@ -258,19 +258,19 @@ run_tests_map_server_gtest_map_server_utest/fast:
 .PHONY : run_tests_map_server_gtest_map_server_utest/fast
 
 # Convenience name for target.
-navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule
 
 # Convenience name for target.
-tf2_msgs_generate_messages_cpp: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+clean_test_results_map_server: navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/rule
 
-.PHONY : tf2_msgs_generate_messages_cpp
+.PHONY : clean_test_results_map_server
 
 # fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
+clean_test_results_map_server/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build.make navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build
+.PHONY : clean_test_results_map_server/fast
 
 # Convenience name for target.
 navigation/map_server/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
@@ -288,49 +288,19 @@ nav_msgs_generate_messages_py/fast:
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
+navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-_run_tests_map_server_gtest: navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
+nav_msgs_generate_messages_lisp: navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : _run_tests_map_server_gtest
+.PHONY : nav_msgs_generate_messages_lisp
 
 # fast build rule for target.
-_run_tests_map_server_gtest/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/build.make navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/build
-.PHONY : _run_tests_map_server_gtest/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
-
-# Convenience name for target.
-run_tests_map_server_gtest: navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
-
-.PHONY : run_tests_map_server_gtest
-
-# fast build rule for target.
-run_tests_map_server_gtest/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/build.make navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/build
-.PHONY : run_tests_map_server_gtest/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_py: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
+nav_msgs_generate_messages_lisp/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+.PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 navigation/map_server/CMakeFiles/map_server-map_saver.dir/rule:
@@ -376,111 +346,6 @@ nav_msgs_generate_messages_nodejs: navigation/map_server/CMakeFiles/nav_msgs_gen
 nav_msgs_generate_messages_nodejs/fast:
 	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make navigation/map_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_lisp: navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make navigation/map_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_eus: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_eus
-
-# fast build rule for target.
-tf2_msgs_generate_messages_eus/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-.PHONY : tf2_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_nodejs: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-.PHONY : tf2_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
-
-# Convenience name for target.
-_run_tests_map_server_gtest_map_server_utest: navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
-
-.PHONY : _run_tests_map_server_gtest_map_server_utest
-
-# fast build rule for target.
-_run_tests_map_server_gtest_map_server_utest/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build.make navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build
-.PHONY : _run_tests_map_server_gtest_map_server_utest/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_eus: navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_lisp: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_lisp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_lisp/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-.PHONY : tf2_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule:
-	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
-.PHONY : navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
-
-# Convenience name for target.
-map_server_image_loader: navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
-
-.PHONY : map_server_image_loader
-
-# fast build rule for target.
-map_server_image_loader/fast:
-	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/map_server_image_loader.dir/build.make navigation/map_server/CMakeFiles/map_server_image_loader.dir/build
-.PHONY : map_server_image_loader/fast
 
 # Convenience name for target.
 navigation/map_server/CMakeFiles/rtest.dir/rule:
@@ -556,6 +421,66 @@ run_tests_map_server: navigation/map_server/CMakeFiles/run_tests_map_server.dir/
 run_tests_map_server/fast:
 	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/run_tests_map_server.dir/build.make navigation/map_server/CMakeFiles/run_tests_map_server.dir/build
 .PHONY : run_tests_map_server/fast
+
+# Convenience name for target.
+navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
+
+# Convenience name for target.
+run_tests_map_server_gtest: navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/rule
+
+.PHONY : run_tests_map_server_gtest
+
+# fast build rule for target.
+run_tests_map_server_gtest/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/build.make navigation/map_server/CMakeFiles/run_tests_map_server_gtest.dir/build
+.PHONY : run_tests_map_server_gtest/fast
+
+# Convenience name for target.
+navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
+
+# Convenience name for target.
+_run_tests_map_server_gtest: navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/rule
+
+.PHONY : _run_tests_map_server_gtest
+
+# fast build rule for target.
+_run_tests_map_server_gtest/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/build.make navigation/map_server/CMakeFiles/_run_tests_map_server_gtest.dir/build
+.PHONY : _run_tests_map_server_gtest/fast
+
+# Convenience name for target.
+navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_eus: navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+
+.PHONY : nav_msgs_generate_messages_eus
+
+# fast build rule for target.
+nav_msgs_generate_messages_eus/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make navigation/map_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+.PHONY : nav_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule:
+	cd /home/enping/boids/src/build && $(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
+.PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
+
+# Convenience name for target.
+_run_tests_map_server_gtest_map_server_utest: navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/rule
+
+.PHONY : _run_tests_map_server_gtest_map_server_utest
+
+# fast build rule for target.
+_run_tests_map_server_gtest_map_server_utest/fast:
+	cd /home/enping/boids/src/build && $(MAKE) -f navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build.make navigation/map_server/CMakeFiles/_run_tests_map_server_gtest_map_server_utest.dir/build
+.PHONY : _run_tests_map_server_gtest_map_server_utest/fast
 
 src/image_loader.o: src/image_loader.cpp.o
 
@@ -728,6 +653,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... test"
@@ -735,32 +662,25 @@ help:
 	@echo "... run_tests_map_server_rostest_test_rtest.xml"
 	@echo "... _run_tests_map_server_rostest"
 	@echo "... run_tests_map_server_rostest"
-	@echo "... clean_test_results_map_server"
+	@echo "... map_server_image_loader"
 	@echo "... run_tests_map_server_gtest_map_server_utest"
-	@echo "... install/strip"
-	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... clean_test_results_map_server"
 	@echo "... nav_msgs_generate_messages_py"
-	@echo "... _run_tests_map_server_gtest"
-	@echo "... run_tests_map_server_gtest"
-	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... edit_cache"
+	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... map_server-map_saver"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_nodejs"
-	@echo "... edit_cache"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... tf2_msgs_generate_messages_eus"
-	@echo "... install/local"
-	@echo "... tf2_msgs_generate_messages_nodejs"
-	@echo "... _run_tests_map_server_gtest_map_server_utest"
-	@echo "... nav_msgs_generate_messages_eus"
-	@echo "... tf2_msgs_generate_messages_lisp"
-	@echo "... map_server_image_loader"
 	@echo "... rtest"
 	@echo "... map_server"
 	@echo "... _run_tests_map_server"
 	@echo "... map_server_utest"
 	@echo "... list_install_components"
 	@echo "... run_tests_map_server"
+	@echo "... run_tests_map_server_gtest"
+	@echo "... _run_tests_map_server_gtest"
+	@echo "... nav_msgs_generate_messages_eus"
+	@echo "... _run_tests_map_server_gtest_map_server_utest"
 	@echo "... src/image_loader.o"
 	@echo "... src/image_loader.i"
 	@echo "... src/image_loader.s"
