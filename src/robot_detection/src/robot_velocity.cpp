@@ -35,7 +35,9 @@ void robotsCallback(const robot_detection::RobotArray::ConstPtr &Robot){
         // ROS_INFO("time stamp %d", Robot ->header.stamp.nsec);
         if ( Robot ->header.seq != 0){
             duration = Robot -> header.stamp - begin_time;
-            // ROS_INFO("duration %d", duration.nsec);
+           _Float64 tmp;
+            tmp = 1.0 /( duration.nsec * pow(10, -6));
+            ROS_INFO("duration %d, freq: %f", duration.nsec, tmp);
             int robot_index = 0; 
             for( int i = 0; i < Robot -> robots.size(); i++){
                 if ( previous_status[Robot -> robots[i].id] == 1){ // it means that i have seen more than marker of this robot
@@ -100,7 +102,7 @@ int main(int argc, char* argv[])
     Pose_robot = n.subscribe("pose_robot", 1, robotsCallback);
     Velocity_robot = n.advertise<robot_detection::Robot_Velocity_Array>("velocity_robot", 1);
 
-    ros::Rate loop_rate(5);
+    ros::Rate loop_rate(30);
     while (ros::ok()){
         ros::spinOnce();
         loop_rate.sleep();

@@ -203,7 +203,7 @@ int main(int argc, char* argv[])
   aruco_array= n.subscribe("aruco_detect/markers", 1000, markersCallback);
   Pose_robot = n.advertise<robot_detection::RobotArray>("pose_robot", 1);
 
-  ros::Rate loop_rate(10);
+  ros::Rate loop_rate(30);
   while (ros::ok()){
     ros::spinOnce();
     loop_rate.sleep();
